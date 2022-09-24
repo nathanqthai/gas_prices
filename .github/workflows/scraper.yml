@@ -3,6 +3,13 @@ name: scraper
 on:
   schedule:
     - cron: '0 12 * * *' # runs at 12:00 UTC everyday
+  workflow_dispatch:
+    inputs:
+      text_to_print:
+        description: 'Manually Run Workflow'
+        required: true
+        default: 'Running'
+
 
 jobs:
   build:
