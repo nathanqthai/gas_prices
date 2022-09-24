@@ -1,0 +1,6 @@
+<!-- vim: set tabstop=2 expandtab softtabstop=2 shiftwidth=2:-->
+
+[![scraper](https://github.com/nathanqthai/gas_prices/actions/workflows/scraper.yml/badge.svg)](https://github.com/nathanqthai/gas_prices/actions/workflows/scraper.yml)
+
+# Header
+
