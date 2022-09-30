@@ -7,6 +7,7 @@ import json
 import logging
 import re
 import time
+import datetime
 
 from bs4 import BeautifulSoup
 import requests
@@ -94,11 +95,12 @@ def main():
     soup = BeautifulSoup(req.text, "html.parser")
     national_prices = get_national_prices(soup)
     state_prices = get_state_prices(national_prices)
-    with open("national.csv", "w") as fd:
+    date = str(datetime.datetime.now(datetime.timezone.utc))
+    with open(f"prices/national/{date}.csv", "w") as fd:
         writer = csv.writer(fd)
         writer.writerows(national_prices)
 
-    with open("states.csv", "w") as fd:
+    with open(f"prices/states/{date}.csv", "w") as fd:
         writer = csv.writer(fd)
         writer.writerows(state_prices)
 
