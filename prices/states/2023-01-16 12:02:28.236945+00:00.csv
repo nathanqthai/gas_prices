@@ -1,0 +1,3141 @@
+HI,Hawaii,Hawaii,$5.079
+HI,Hawaii,Honolulu,$4.956
+HI,Hawaii,Kalawao,
+HI,Hawaii,Kauai,$5.409
+HI,Hawaii,Maui,$4.996
+CA,California,Alameda,$4.448
+CA,California,Alpine,
+CA,California,Amador,$4.333
+CA,California,Butte,$4.143
+CA,California,Calaveras,$4.396
+CA,California,Colusa,$4.428
+CA,California,Contra Costa,$4.349
+CA,California,Del Norte,$4.737
+CA,California,El Dorado,$4.413
+CA,California,Fresno,$4.268
+CA,California,Glenn,$4.277
+CA,California,Humboldt,$4.841
+CA,California,Imperial,$4.240
+CA,California,Inyo,$4.801
+CA,California,Kern,$4.507
+CA,California,Kings,$4.350
+CA,California,Lake,$4.332
+CA,California,Lassen,$4.864
+CA,California,Los Angeles,$4.508
+CA,California,Madera,$4.190
+CA,California,Marin,$4.505
+CA,California,Mariposa,$4.519
+CA,California,Mendocino,$4.448
+CA,California,Merced,$4.171
+CA,California,Modoc,$5.049
+CA,California,Mono,$5.639
+CA,California,Monterey,$4.628
+CA,California,Napa,$4.538
+CA,California,Nevada,$4.751
+CA,California,Orange,$4.432
+CA,California,Placer,$4.440
+CA,California,Plumas,$4.546
+CA,California,Riverside,$4.375
+CA,California,Sacramento,$4.220
+CA,California,San Benito,$4.551
+CA,California,San Bernardino,$4.396
+CA,California,San Diego,$4.539
+CA,California,San Francisco,$4.563
+CA,California,San Joaquin,$4.142
+CA,California,San Luis Obispo,$4.842
+CA,California,San Mateo,$4.573
+CA,California,Santa Barbara,$4.488
+CA,California,Santa Clara,$4.434
+CA,California,Santa Cruz,$4.499
+CA,California,Shasta,$4.119
+CA,California,Sierra,$4.709
+CA,California,Siskiyou,$4.606
+CA,California,Solano,$4.341
+CA,California,Sonoma,$4.508
+CA,California,Stanislaus,$4.116
+CA,California,Sutter,$4.083
+CA,California,Tehama,$4.148
+CA,California,Trinity,$4.705
+CA,California,Tulare,$4.340
+CA,California,Tuolumne,$4.212
+CA,California,Ventura,$4.526
+CA,California,Yolo,$4.262
+CA,California,Yuba,$3.979
+WA,Washington,Adams,$3.805
+WA,Washington,Asotin,$3.522
+WA,Washington,Benton,$3.696
+WA,Washington,Chelan,$3.820
+WA,Washington,Clallam,$3.958
+WA,Washington,Clark,$3.848
+WA,Washington,Columbia,$3.879
+WA,Washington,Cowlitz,$3.995
+WA,Washington,Douglas,$3.627
+WA,Washington,Ferry,$3.982
+WA,Washington,Franklin,$3.681
+WA,Washington,Garfield,$3.999
+WA,Washington,Grant,$3.816
+WA,Washington,Grays Harbor,$4.254
+WA,Washington,Island,$3.774
+WA,Washington,Jefferson,$4.292
+WA,Washington,King,$4.335
+WA,Washington,Kitsap,$3.991
+WA,Washington,Kittitas,$3.789
+WA,Washington,Klickitat,$4.037
+WA,Washington,Lewis,$4.129
+WA,Washington,Lincoln,$3.648
+WA,Washington,Mason,$4.078
+WA,Washington,Okanogan,$3.972
+WA,Washington,Pacific,$4.288
+WA,Washington,Pend Oreille,$3.537
+WA,Washington,Pierce,$4.021
+WA,Washington,San Juan,$4.556
+WA,Washington,Skagit,$3.697
+WA,Washington,Skamania,$4.021
+WA,Washington,Snohomish,$4.017
+WA,Washington,Spokane,$3.585
+WA,Washington,Stevens,$3.723
+WA,Washington,Thurston,$4.067
+WA,Washington,Wahkiakum,$4.499
+WA,Washington,Walla Walla,$3.845
+WA,Washington,Whatcom,$3.940
+WA,Washington,Whitman,$3.979
+WA,Washington,Yakima,$3.684
+NV,Nevada,Carson City,$3.873
+NV,Nevada,Churchill,$3.992
+NV,Nevada,Clark,$3.901
+NV,Nevada,Douglas,$4.246
+NV,Nevada,Elko,$3.724
+NV,Nevada,Esmeralda,
+NV,Nevada,Eureka,$4.149
+NV,Nevada,Humboldt,$3.607
+NV,Nevada,Lander,$3.607
+NV,Nevada,Lincoln,$3.589
+NV,Nevada,Lyon,$3.904
+NV,Nevada,Mineral,$4.799
+NV,Nevada,Nye,$3.623
+NV,Nevada,Pershing,$4.419
+NV,Nevada,Storey,
+NV,Nevada,Washoe,$4.316
+NV,Nevada,White Pine,$3.864
+AK,Alaska,Aleutians East,
+AK,Alaska,Aleutians West,$5.349
+AK,Alaska,Anchorage,$3.794
+AK,Alaska,Bethel,
+AK,Alaska,Bristol Bay,
+AK,Alaska,Denali,$3.689
+AK,Alaska,Dillingham,
+AK,Alaska,Fairbanks North Star,$3.363
+AK,Alaska,Haines,
+AK,Alaska,Juneau,$4.572
+AK,Alaska,Kenai Peninsula,$3.705
+AK,Alaska,Ketchikan Gateway,
+AK,Alaska,Kodiak Island,
+AK,Alaska,Matanuska Susitna,$3.511
+AK,Alaska,Nome,
+AK,Alaska,North Slope,
+AK,Alaska,Northwest Arctic,
+AK,Alaska,Lake and Peninsula,
+AK,Alaska,Prince Wales Ketchikan,$5.199
+AK,Alaska,Sitka,$5.229
+AK,Alaska,Skagway Hoonah Angoon,
+AK,Alaska,Southeast Fairbanks,$3.601
+AK,Alaska,Valdez Cordova,$4.145
+AK,Alaska,Wade Hampton,
+AK,Alaska,Wrangell Petersburg,$5.279
+AK,Alaska,Yakutat,
+AK,Alaska,Yukon Koyukuk,
+OR,Oregon,Baker,$4.471
+OR,Oregon,Benton,$3.314
+OR,Oregon,Clackamas,$3.764
+OR,Oregon,Clatsop,$3.890
+OR,Oregon,Columbia,$3.804
+OR,Oregon,Coos,$3.965
+OR,Oregon,Crook,$3.672
+OR,Oregon,Curry,$4.072
+OR,Oregon,Deschutes,$3.641
+OR,Oregon,Douglas,$3.551
+OR,Oregon,Gilliam,$3.699
+OR,Oregon,Grant,$3.774
+OR,Oregon,Harney,$3.799
+OR,Oregon,Hood River,$3.597
+OR,Oregon,Jackson,$3.627
+OR,Oregon,Jefferson,$3.523
+OR,Oregon,Josephine,$3.841
+OR,Oregon,Klamath,$3.619
+OR,Oregon,Lake,$3.799
+OR,Oregon,Lane,$3.540
+OR,Oregon,Lincoln,$3.154
+OR,Oregon,Linn,$3.392
+OR,Oregon,Malheur,$3.507
+OR,Oregon,Marion,$3.458
+OR,Oregon,Morrow,$3.595
+OR,Oregon,Multnomah,$3.874
+OR,Oregon,Polk,$3.490
+OR,Oregon,Sherman,$3.789
+OR,Oregon,Tillamook,$3.689
+OR,Oregon,Umatilla,$3.657
+OR,Oregon,Union,$4.121
+OR,Oregon,Wallowa,$4.149
+OR,Oregon,Wasco,$3.687
+OR,Oregon,Washington,$3.811
+OR,Oregon,Wheeler,
+OR,Oregon,Yamhill,$3.608
+PA,Pennsylvania,Adams,$3.748
+PA,Pennsylvania,Allegheny,$3.689
+PA,Pennsylvania,Armstrong,$3.768
+PA,Pennsylvania,Beaver,$3.713
+PA,Pennsylvania,Bedford,$3.563
+PA,Pennsylvania,Berks,$3.599
+PA,Pennsylvania,Blair,$3.792
+PA,Pennsylvania,Bradford,$3.673
+PA,Pennsylvania,Bucks,$3.488
+PA,Pennsylvania,Butler,$3.706
+PA,Pennsylvania,Cambria,$3.732
+PA,Pennsylvania,Cameron,$3.742
+PA,Pennsylvania,Carbon,$3.508
+PA,Pennsylvania,Centre,$3.739
+PA,Pennsylvania,Chester,$3.495
+PA,Pennsylvania,Clarion,$3.725
+PA,Pennsylvania,Clearfield,$3.761
+PA,Pennsylvania,Clinton,$3.703
+PA,Pennsylvania,Columbia,$3.671
+PA,Pennsylvania,Crawford,$3.755
+PA,Pennsylvania,Cumberland,$3.723
+PA,Pennsylvania,Dauphin,$3.651
+PA,Pennsylvania,Delaware,$3.499
+PA,Pennsylvania,Elk,$3.655
+PA,Pennsylvania,Erie,$3.728
+PA,Pennsylvania,Fayette,$3.654
+PA,Pennsylvania,Forest,$3.789
+PA,Pennsylvania,Franklin,$3.686
+PA,Pennsylvania,Fulton,$3.716
+PA,Pennsylvania,Greene,$3.783
+PA,Pennsylvania,Huntingdon,$3.781
+PA,Pennsylvania,Indiana,$3.740
+PA,Pennsylvania,Jefferson,$3.713
+PA,Pennsylvania,Juniata,$3.712
+PA,Pennsylvania,Lackawanna,$3.618
+PA,Pennsylvania,Lancaster,$3.662
+PA,Pennsylvania,Lawrence,$3.625
+PA,Pennsylvania,Lebanon,$3.554
+PA,Pennsylvania,Lehigh,$3.493
+PA,Pennsylvania,Luzerne,$3.654
+PA,Pennsylvania,Lycoming,$3.683
+PA,Pennsylvania,McKean,$3.773
+PA,Pennsylvania,Mercer,$3.765
+PA,Pennsylvania,Mifflin,$3.796
+PA,Pennsylvania,Monroe,$3.583
+PA,Pennsylvania,Montgomery,$3.500
+PA,Pennsylvania,Montour,$3.708
+PA,Pennsylvania,Northampton,$3.482
+PA,Pennsylvania,Northumberland,$3.627
+PA,Pennsylvania,Perry,$3.705
+PA,Pennsylvania,Philadelphia,$3.495
+PA,Pennsylvania,Pike,$3.616
+PA,Pennsylvania,Potter,$3.799
+PA,Pennsylvania,Schuylkill,$3.587
+PA,Pennsylvania,Snyder,$3.667
+PA,Pennsylvania,Somerset,$3.718
+PA,Pennsylvania,Sullivan,$3.732
+PA,Pennsylvania,Susquehanna,$3.678
+PA,Pennsylvania,Tioga,$3.689
+PA,Pennsylvania,Union,$3.502
+PA,Pennsylvania,Venango,$3.716
+PA,Pennsylvania,Warren,$3.799
+PA,Pennsylvania,Washington,$3.672
+PA,Pennsylvania,Wayne,$3.527
+PA,Pennsylvania,Westmoreland,$3.732
+PA,Pennsylvania,Wyoming,$3.566
+PA,Pennsylvania,York,$3.775
+IL,Illinois,Adams,$3.436
+IL,Illinois,Alexander,
+IL,Illinois,Bond,$3.438
+IL,Illinois,Boone,$3.507
+IL,Illinois,Brown,$3.299
+IL,Illinois,Bureau,$3.478
+IL,Illinois,Calhoun,
+IL,Illinois,Carroll,$3.446
+IL,Illinois,Cass,$3.316
+IL,Illinois,Champaign,$3.289
+IL,Illinois,Christian,$3.332
+IL,Illinois,Clark,$3.354
+IL,Illinois,Clay,$3.382
+IL,Illinois,Clinton,$3.458
+IL,Illinois,Coles,$3.327
+IL,Illinois,Cook,$3.725
+IL,Illinois,Crawford,$3.349
+IL,Illinois,Cumberland,$3.352
+IL,Illinois,Dewitt,$3.313
+IL,Illinois,De Kalb,$3.448
+IL,Illinois,Douglas,$3.325
+IL,Illinois,Du Page,$3.551
+IL,Illinois,Edgar,$3.354
+IL,Illinois,Edwards,$3.499
+IL,Illinois,Effingham,$3.249
+IL,Illinois,Fayette,$3.460
+IL,Illinois,Ford,$3.395
+IL,Illinois,Franklin,$3.481
+IL,Illinois,Fulton,$3.341
+IL,Illinois,Gallatin,
+IL,Illinois,Greene,$3.388
+IL,Illinois,Grundy,$3.426
+IL,Illinois,Hamilton,$3.399
+IL,Illinois,Hancock,$3.432
+IL,Illinois,Hardin,$3.559
+IL,Illinois,Henderson,$3.395
+IL,Illinois,Henry,$3.481
+IL,Illinois,Iroquois,$3.337
+IL,Illinois,Jackson,$3.511
+IL,Illinois,Jasper,$3.099
+IL,Illinois,Jefferson,$3.372
+IL,Illinois,Jersey,$3.458
+IL,Illinois,Jo Daviess,$3.411
+IL,Illinois,Johnson,$3.499
+IL,Illinois,Kane,$3.488
+IL,Illinois,Kankakee,$3.518
+IL,Illinois,Kendall,$3.474
+IL,Illinois,Knox,$3.522
+IL,Illinois,La Salle,$3.364
+IL,Illinois,Lake,$3.544
+IL,Illinois,Lawrence,$3.310
+IL,Illinois,Lee,$3.262
+IL,Illinois,Livingston,$3.321
+IL,Illinois,Logan,$3.181
+IL,Illinois,Macon,$3.290
+IL,Illinois,Macoupin,$3.451
+IL,Illinois,Madison,$3.332
+IL,Illinois,Marion,$3.408
+IL,Illinois,Marshall,$3.443
+IL,Illinois,Mason,$3.227
+IL,Illinois,Massac,$3.459
+IL,Illinois,McDonough,$3.568
+IL,Illinois,McHenry,$3.488
+IL,Illinois,McLean,$3.367
+IL,Illinois,Menard,$3.332
+IL,Illinois,Mercer,$3.495
+IL,Illinois,Monroe,$3.499
+IL,Illinois,Montgomery,$3.444
+IL,Illinois,Morgan,$3.309
+IL,Illinois,Moultrie,$3.372
+IL,Illinois,Ogle,$3.348
+IL,Illinois,Peoria,$3.555
+IL,Illinois,Perry,$3.533
+IL,Illinois,Piatt,$3.280
+IL,Illinois,Pike,$3.438
+IL,Illinois,Pope,$3.499
+IL,Illinois,Pulaski,$3.699
+IL,Illinois,Putnam,$3.399
+IL,Illinois,Randolph,$3.387
+IL,Illinois,Richland,$3.299
+IL,Illinois,Rock Island,$3.429
+IL,Illinois,Saline,$3.490
+IL,Illinois,Sangamon,$3.382
+IL,Illinois,Schuyler,$3.239
+IL,Illinois,Scott,$3.252
+IL,Illinois,Shelby,$3.366
+IL,Illinois,Saint Clair,$3.441
+IL,Illinois,Stark,$3.359
+IL,Illinois,Stephenson,$3.364
+IL,Illinois,Tazewell,$3.392
+IL,Illinois,Union,$3.539
+IL,Illinois,Vermilion,$3.258
+IL,Illinois,Wabash,$3.317
+IL,Illinois,Warren,$3.500
+IL,Illinois,Washington,$3.480
+IL,Illinois,Wayne,$3.386
+IL,Illinois,White,$3.384
+IL,Illinois,Whiteside,$3.485
+IL,Illinois,Will,$3.533
+IL,Illinois,Williamson,$3.407
+IL,Illinois,Winnebago,$3.476
+IL,Illinois,Woodford,$3.366
+NY,New York,Albany,$3.413
+NY,New York,Allegany,$3.572
+NY,New York,Bronx,$3.518
+NY,New York,Broome,$3.450
+NY,New York,Cattaraugus,$3.522
+NY,New York,Cayuga,$3.396
+NY,New York,Chautauqua,$3.612
+NY,New York,Chemung,$3.302
+NY,New York,Chenango,$3.384
+NY,New York,Clinton,$3.552
+NY,New York,Columbia,$3.364
+NY,New York,Cortland,$3.455
+NY,New York,Delaware,$3.544
+NY,New York,Dutchess,$3.490
+NY,New York,Erie,$3.421
+NY,New York,Essex,$3.720
+NY,New York,Franklin,$3.564
+NY,New York,Fulton,$3.445
+NY,New York,Genesee,$3.332
+NY,New York,Greene,$3.424
+NY,New York,Hamilton,$3.799
+NY,New York,Herkimer,$3.490
+NY,New York,Jefferson,$3.428
+NY,New York,Kings,$3.431
+NY,New York,Lewis,$3.586
+NY,New York,Livingston,$3.453
+NY,New York,Madison,$3.488
+NY,New York,Monroe,$3.427
+NY,New York,Montgomery,$3.514
+NY,New York,Nassau,$3.321
+NY,New York,New York,$3.820
+NY,New York,Niagara,$3.313
+NY,New York,Oneida,$3.582
+NY,New York,Onondaga,$3.339
+NY,New York,Ontario,$3.476
+NY,New York,Orange,$3.359
+NY,New York,Orleans,$3.491
+NY,New York,Oswego,$3.558
+NY,New York,Otsego,$3.548
+NY,New York,Putnam,$3.611
+NY,New York,Queens,$3.493
+NY,New York,Rensselaer,$3.432
+NY,New York,Richmond,$3.465
+NY,New York,Rockland,$3.607
+NY,New York,Saratoga,$3.378
+NY,New York,Schenectady,$3.423
+NY,New York,Schoharie,$3.337
+NY,New York,Schuyler,$3.470
+NY,New York,Seneca,$3.267
+NY,New York,Saint Lawrence,$3.628
+NY,New York,Steuben,$3.457
+NY,New York,Suffolk,$3.294
+NY,New York,Sullivan,$3.466
+NY,New York,Tioga,$3.410
+NY,New York,Tompkins,$3.515
+NY,New York,Ulster,$3.324
+NY,New York,Warren,$3.534
+NY,New York,Washington,$3.474
+NY,New York,Wayne,$3.498
+NY,New York,Westchester,$3.625
+NY,New York,Wyoming,$3.450
+NY,New York,Yates,$3.534
+VT,Vermont,Addison,$3.373
+VT,Vermont,Bennington,$3.349
+VT,Vermont,Caledonia,$3.378
+VT,Vermont,Chittenden,$3.458
+VT,Vermont,Essex,$3.562
+VT,Vermont,Franklin,$3.490
+VT,Vermont,Grand Isle,$3.491
+VT,Vermont,Lamoille,$3.490
+VT,Vermont,Orange,$3.427
+VT,Vermont,Orleans,$3.520
+VT,Vermont,Rutland,$3.367
+VT,Vermont,Washington,$3.437
+VT,Vermont,Windham,$3.342
+VT,Vermont,Windsor,$3.367
+AZ,Arizona,Apache,$3.346
+AZ,Arizona,Cochise,$3.386
+AZ,Arizona,Coconino,$3.640
+AZ,Arizona,Gila,$3.635
+AZ,Arizona,Graham,$3.464
+AZ,Arizona,Greenlee,$3.396
+AZ,Arizona,La Paz,$3.514
+AZ,Arizona,Maricopa,$3.436
+AZ,Arizona,Mohave,$3.544
+AZ,Arizona,Navajo,$3.357
+AZ,Arizona,Pima,$3.175
+AZ,Arizona,Pinal,$3.310
+AZ,Arizona,Santa Cruz,$3.330
+AZ,Arizona,Yavapai,$3.511
+AZ,Arizona,Yuma,$3.390
+IN,Indiana,Adams,$3.438
+IN,Indiana,Allen,$3.444
+IN,Indiana,Bartholomew,$3.427
+IN,Indiana,Benton,$3.427
+IN,Indiana,Blackford,$3.459
+IN,Indiana,Boone,$3.402
+IN,Indiana,Brown,$3.457
+IN,Indiana,Carroll,$3.459
+IN,Indiana,Cass,$3.459
+IN,Indiana,Clark,$3.192
+IN,Indiana,Clay,$3.386
+IN,Indiana,Clinton,$3.391
+IN,Indiana,Crawford,$3.199
+IN,Indiana,Daviess,$3.357
+IN,Indiana,De Kalb,$3.459
+IN,Indiana,Dearborn,$3.264
+IN,Indiana,Decatur,$3.431
+IN,Indiana,Delaware,$3.428
+IN,Indiana,Dubois,$3.362
+IN,Indiana,Elkhart,$3.375
+IN,Indiana,Fayette,$3.452
+IN,Indiana,Floyd,$3.188
+IN,Indiana,Fountain,$3.404
+IN,Indiana,Franklin,$3.356
+IN,Indiana,Fulton,$3.439
+IN,Indiana,Gibson,$3.316
+IN,Indiana,Grant,$3.422
+IN,Indiana,Greene,$3.316
+IN,Indiana,Hamilton,$3.450
+IN,Indiana,Hancock,$3.412
+IN,Indiana,Harrison,$3.172
+IN,Indiana,Hendricks,$3.434
+IN,Indiana,Henry,$3.407
+IN,Indiana,Howard,$3.436
+IN,Indiana,Huntington,$3.389
+IN,Indiana,Jackson,$3.434
+IN,Indiana,Jasper,$3.396
+IN,Indiana,Jay,$3.245
+IN,Indiana,Jefferson,$3.452
+IN,Indiana,Jennings,$3.423
+IN,Indiana,Johnson,$3.409
+IN,Indiana,Knox,$3.286
+IN,Indiana,Kosciusko,$3.437
+IN,Indiana,La Porte,$3.466
+IN,Indiana,Lagrange,$3.358
+IN,Indiana,Lake,$3.415
+IN,Indiana,Lawrence,$3.301
+IN,Indiana,Madison,$3.396
+IN,Indiana,Marion,$3.419
+IN,Indiana,Marshall,$3.427
+IN,Indiana,Martin,$3.209
+IN,Indiana,Miami,$3.421
+IN,Indiana,Monroe,$3.453
+IN,Indiana,Montgomery,$3.433
+IN,Indiana,Morgan,$3.437
+IN,Indiana,Newton,$3.259
+IN,Indiana,Noble,$3.407
+IN,Indiana,Ohio,$3.316
+IN,Indiana,Orange,$3.189
+IN,Indiana,Owen,$3.459
+IN,Indiana,Parke,$3.372
+IN,Indiana,Perry,$3.190
+IN,Indiana,Pike,$3.355
+IN,Indiana,Porter,$3.453
+IN,Indiana,Posey,$3.246
+IN,Indiana,Pulaski,$3.499
+IN,Indiana,Putnam,$3.440
+IN,Indiana,Randolph,$3.413
+IN,Indiana,Ripley,$3.321
+IN,Indiana,Rush,$3.452
+IN,Indiana,Scott,$3.321
+IN,Indiana,Shelby,$3.421
+IN,Indiana,Spencer,$3.334
+IN,Indiana,Saint Joseph,
+IN,Indiana,Starke,$3.436
+IN,Indiana,Steuben,$3.426
+IN,Indiana,Sullivan,$3.342
+IN,Indiana,Switzerland,$3.174
+IN,Indiana,Tippecanoe,$3.471
+IN,Indiana,Tipton,$3.428
+IN,Indiana,Union,$3.366
+IN,Indiana,Vanderburgh,$3.167
+IN,Indiana,Vermillion,$3.465
+IN,Indiana,Vigo,$3.418
+IN,Indiana,Wabash,$3.440
+IN,Indiana,Warren,$3.437
+IN,Indiana,Warrick,$3.407
+IN,Indiana,Washington,$3.425
+IN,Indiana,Wayne,$3.348
+IN,Indiana,Wells,$3.402
+IN,Indiana,White,$3.441
+IN,Indiana,Whitley,$3.442
+ID,Idaho,Ada,$3.371
+ID,Idaho,Adams,$3.619
+ID,Idaho,Bannock,$3.273
+ID,Idaho,Bear Lake,$3.179
+ID,Idaho,Benewah,$3.484
+ID,Idaho,Bingham,$3.252
+ID,Idaho,Blaine,$3.728
+ID,Idaho,Boise,$3.499
+ID,Idaho,Bonner,$3.475
+ID,Idaho,Bonneville,$3.323
+ID,Idaho,Boundary,$3.516
+ID,Idaho,Butte,$3.499
+ID,Idaho,Camas,$3.699
+ID,Idaho,Canyon,$3.381
+ID,Idaho,Caribou,$3.387
+ID,Idaho,Cassia,$3.225
+ID,Idaho,Clark,$3.899
+ID,Idaho,Clearwater,$3.549
+ID,Idaho,Custer,$3.489
+ID,Idaho,Elmore,$3.445
+ID,Idaho,Franklin,$3.270
+ID,Idaho,Fremont,$3.671
+ID,Idaho,Gem,$3.392
+ID,Idaho,Gooding,$3.408
+ID,Idaho,Idaho,$3.729
+ID,Idaho,Jefferson,$3.276
+ID,Idaho,Jerome,$3.454
+ID,Idaho,Kootenai,$3.193
+ID,Idaho,Latah,$3.662
+ID,Idaho,Lemhi,$3.207
+ID,Idaho,Lewis,$3.506
+ID,Idaho,Lincoln,$3.449
+ID,Idaho,Madison,$3.421
+ID,Idaho,Minidoka,$3.209
+ID,Idaho,Nez perce,$3.487
+ID,Idaho,Oneida,$3.249
+ID,Idaho,Owyhee,$3.483
+ID,Idaho,Payette,$3.400
+ID,Idaho,Power,$3.329
+ID,Idaho,Shoshone,$3.343
+ID,Idaho,Teton,$3.531
+ID,Idaho,Twin falls,$3.401
+ID,Idaho,Valley,$3.816
+ID,Idaho,Washington,$3.407
+ME,Maine,Androscoggin,$3.457
+ME,Maine,Aroostook,$3.298
+ME,Maine,Cumberland,$3.390
+ME,Maine,Franklin,$3.383
+ME,Maine,Hancock,$3.397
+ME,Maine,Kennebec,$3.391
+ME,Maine,Knox,$3.355
+ME,Maine,Lincoln,$3.319
+ME,Maine,Oxford,$3.384
+ME,Maine,Penobscot,$3.298
+ME,Maine,Piscataquis,$3.280
+ME,Maine,Sagadahoc,$3.564
+ME,Maine,Somerset,$3.318
+ME,Maine,Waldo,$3.371
+ME,Maine,Washington,$3.367
+ME,Maine,York,$3.315
+CO,Colorado,Adams,$3.315
+CO,Colorado,Alamosa,$3.227
+CO,Colorado,Arapahoe,$3.315
+CO,Colorado,Archuleta,$3.649
+CO,Colorado,Baca,$3.309
+CO,Colorado,Bent,$3.179
+CO,Colorado,Boulder,$3.375
+CO,Colorado,Broomfield,$3.305
+CO,Colorado,Chaffee,$3.480
+CO,Colorado,Cheyenne,$3.099
+CO,Colorado,Clear Creek,$3.529
+CO,Colorado,Conejos,$3.299
+CO,Colorado,Costilla,$3.299
+CO,Colorado,Crowley,$3.254
+CO,Colorado,Custer,$3.429
+CO,Colorado,Delta,$3.272
+CO,Colorado,Denver,$3.306
+CO,Colorado,Dolores,$3.459
+CO,Colorado,Douglas,$3.350
+CO,Colorado,Eagle,$3.842
+CO,Colorado,El Paso,$3.327
+CO,Colorado,Elbert,$3.466
+CO,Colorado,Fremont,$3.412
+CO,Colorado,Garfield,$3.675
+CO,Colorado,Gilpin,$3.299
+CO,Colorado,Grand,$3.592
+CO,Colorado,Gunnison,$3.484
+CO,Colorado,Hinsdale,
+CO,Colorado,Huerfano,$3.189
+CO,Colorado,Jackson,$3.599
+CO,Colorado,Jefferson,$3.281
+CO,Colorado,Kiowa,$2.979
+CO,Colorado,Kit Carson,$3.157
+CO,Colorado,La Plata,$3.323
+CO,Colorado,Lake,$3.457
+CO,Colorado,Larimer,$3.289
+CO,Colorado,Las Animas,$3.376
+CO,Colorado,Lincoln,$3.217
+CO,Colorado,Logan,$3.298
+CO,Colorado,Mesa,$3.337
+CO,Colorado,Mineral,$3.499
+CO,Colorado,Moffat,$3.556
+CO,Colorado,Montezuma,$3.357
+CO,Colorado,Montrose,$3.310
+CO,Colorado,Morgan,$3.286
+CO,Colorado,Otero,$3.175
+CO,Colorado,Ouray,$3.559
+CO,Colorado,Park,$3.559
+CO,Colorado,Phillips,$3.784
+CO,Colorado,Pitkin,$4.832
+CO,Colorado,Prowers,$2.984
+CO,Colorado,Pueblo,$3.417
+CO,Colorado,Rio Blanco,$3.432
+CO,Colorado,Rio Grande,$3.346
+CO,Colorado,Routt,$3.628
+CO,Colorado,Saguache,$3.349
+CO,Colorado,San Juan,$3.459
+CO,Colorado,San Miguel,$3.589
+CO,Colorado,Sedgwick,$3.256
+CO,Colorado,Summit,$3.670
+CO,Colorado,Teller,$3.331
+CO,Colorado,Washington,$3.259
+CO,Colorado,Weld,$3.325
+CO,Colorado,Yuma,$3.249
+UT,Utah,Beaver,$3.734
+UT,Utah,Box Elder,$3.223
+UT,Utah,Cache,$3.285
+UT,Utah,Carbon,$3.346
+UT,Utah,Daggett,$3.599
+UT,Utah,Davis,$3.295
+UT,Utah,Duchesne,$3.307
+UT,Utah,Emery,$3.331
+UT,Utah,Garfield,$3.547
+UT,Utah,Grand,$3.410
+UT,Utah,Iron,$3.370
+UT,Utah,Juab,$3.294
+UT,Utah,Kane,$3.516
+UT,Utah,Millard,$3.388
+UT,Utah,Morgan,$3.462
+UT,Utah,Piute,
+UT,Utah,Rich,$3.611
+UT,Utah,Salt Lake,$3.293
+UT,Utah,San Juan,$3.548
+UT,Utah,Sanpete,$3.243
+UT,Utah,Sevier,$3.153
+UT,Utah,Summit,$3.401
+UT,Utah,Tooele,$3.281
+UT,Utah,Uintah,$3.321
+UT,Utah,Utah,$3.278
+UT,Utah,Wasatch,$3.301
+UT,Utah,Washington,$3.493
+UT,Utah,Wayne,$3.459
+UT,Utah,Weber,$3.291
+MA,Massachusetts,Barnstable,$3.465
+MA,Massachusetts,Berkshire,$3.298
+MA,Massachusetts,Bristol,$3.148
+MA,Massachusetts,Dukes,$4.449
+MA,Massachusetts,Essex,$3.274
+MA,Massachusetts,Franklin,$3.167
+MA,Massachusetts,Hampden,$3.150
+MA,Massachusetts,Hampshire,$3.253
+MA,Massachusetts,Middlesex,$3.402
+MA,Massachusetts,Nantucket,$4.819
+MA,Massachusetts,Norfolk,$3.375
+MA,Massachusetts,Plymouth,$3.230
+MA,Massachusetts,Suffolk,$3.470
+MA,Massachusetts,Worcester,$3.255
+MI,Michigan,Alcona,$3.399
+MI,Michigan,Alger,$3.341
+MI,Michigan,Allegan,$3.288
+MI,Michigan,Alpena,$3.373
+MI,Michigan,Antrim,$3.315
+MI,Michigan,Arenac,$3.314
+MI,Michigan,Baraga,$3.253
+MI,Michigan,Barry,$3.328
+MI,Michigan,Bay,$3.216
+MI,Michigan,Benzie,$3.373
+MI,Michigan,Berrien,$3.260
+MI,Michigan,Branch,$3.289
+MI,Michigan,Calhoun,$3.230
+MI,Michigan,Cass,$3.359
+MI,Michigan,Charlevoix,$3.398
+MI,Michigan,Cheboygan,$3.402
+MI,Michigan,Chippewa,$3.403
+MI,Michigan,Clare,$3.270
+MI,Michigan,Clinton,$3.244
+MI,Michigan,Crawford,$3.328
+MI,Michigan,Delta,$3.377
+MI,Michigan,Dickinson,$3.332
+MI,Michigan,Eaton,$3.232
+MI,Michigan,Emmet,$3.390
+MI,Michigan,Genesee,$3.264
+MI,Michigan,Gladwin,$3.250
+MI,Michigan,Gogebic,$3.393
+MI,Michigan,Grand Traverse,$3.179
+MI,Michigan,Gratiot,$3.355
+MI,Michigan,Hillsdale,$3.317
+MI,Michigan,Houghton,$3.442
+MI,Michigan,Huron,$3.252
+MI,Michigan,Ingham,$3.237
+MI,Michigan,Ionia,$3.260
+MI,Michigan,Iosco,$3.293
+MI,Michigan,Iron,$3.379
+MI,Michigan,Isabella,$3.256
+MI,Michigan,Jackson,$3.327
+MI,Michigan,Kalamazoo,$3.249
+MI,Michigan,Kalkaska,$3.296
+MI,Michigan,Kent,$3.239
+MI,Michigan,Keweenaw,$3.499
+MI,Michigan,Lake,$3.329
+MI,Michigan,Lapeer,$3.255
+MI,Michigan,Leelanau,$3.359
+MI,Michigan,Lenawee,$3.229
+MI,Michigan,Livingston,$3.327
+MI,Michigan,Luce,$3.481
+MI,Michigan,Mackinac,$3.350
+MI,Michigan,Macomb,$3.316
+MI,Michigan,Manistee,$3.353
+MI,Michigan,Marquette,$3.278
+MI,Michigan,Mason,$3.278
+MI,Michigan,Mecosta,$3.351
+MI,Michigan,Menominee,$3.364
+MI,Michigan,Midland,$3.136
+MI,Michigan,Missaukee,$3.270
+MI,Michigan,Monroe,$3.284
+MI,Michigan,Montcalm,$3.245
+MI,Michigan,Montmorency,$3.381
+MI,Michigan,Muskegon,$3.269
+MI,Michigan,Newaygo,$3.150
+MI,Michigan,Oakland,$3.385
+MI,Michigan,Oceana,$3.283
+MI,Michigan,Ogemaw,$3.244
+MI,Michigan,Ontonagon,$3.449
+MI,Michigan,Osceola,$3.279
+MI,Michigan,Oscoda,$3.399
+MI,Michigan,Otsego,$3.233
+MI,Michigan,Ottawa,$3.205
+MI,Michigan,Presque Isle,$3.398
+MI,Michigan,Roscommon,$3.225
+MI,Michigan,Saginaw,$3.282
+MI,Michigan,Sanilac,$3.236
+MI,Michigan,Schoolcraft,$3.426
+MI,Michigan,Shiawassee,$3.276
+MI,Michigan,Saint Clair,$3.283
+MI,Michigan,Saint Joseph,$3.284
+MI,Michigan,Tuscola,$3.227
+MI,Michigan,Van Buren,$3.180
+MI,Michigan,Washtenaw,$3.332
+MI,Michigan,Wayne,$3.330
+MI,Michigan,Wexford,$3.240
+MD,Maryland,Allegany,$3.610
+MD,Maryland,Anne Arundel,$3.244
+MD,Maryland,Baltimore City,$3.286
+MD,Maryland,Baltimore,$3.252
+MD,Maryland,Calvert,$3.223
+MD,Maryland,Cecil,$3.227
+MD,Maryland,Charles,$3.159
+MD,Maryland,Carroll,$3.232
+MD,Maryland,Caroline,$3.231
+MD,Maryland,Dorchester,$3.237
+MD,Maryland,Frederick,$3.293
+MD,Maryland,Garrett,$3.631
+MD,Maryland,Harford,$3.246
+MD,Maryland,Howard,$3.331
+MD,Maryland,Kent,$3.237
+MD,Maryland,Montgomery,$3.390
+MD,Maryland,Prince Georges,$3.303
+MD,Maryland,Queen Annes,$3.242
+MD,Maryland,Saint Marys,$3.264
+MD,Maryland,Somerset,$3.269
+MD,Maryland,Talbot,$3.243
+MD,Maryland,Washington,$3.450
+MD,Maryland,Wicomico,$3.231
+MD,Maryland,Worcester,$3.232
+NJ,New Jersey,Atlantic,$3.280
+NJ,New Jersey,Bergen,$3.244
+NJ,New Jersey,Burlington,$3.226
+NJ,New Jersey,Camden,$3.246
+NJ,New Jersey,Cape May,$3.356
+NJ,New Jersey,Cumberland,$3.280
+NJ,New Jersey,Essex,$3.368
+NJ,New Jersey,Gloucester,$3.270
+NJ,New Jersey,Hudson,$3.286
+NJ,New Jersey,Hunterdon,$3.323
+NJ,New Jersey,Mercer,$3.334
+NJ,New Jersey,Middlesex,$3.308
+NJ,New Jersey,Monmouth,$3.308
+NJ,New Jersey,Morris,$3.283
+NJ,New Jersey,Ocean,$3.336
+NJ,New Jersey,Passaic,$3.261
+NJ,New Jersey,Salem,$3.289
+NJ,New Jersey,Somerset,$3.427
+NJ,New Jersey,Sussex,$3.165
+NJ,New Jersey,Union,$3.284
+NJ,New Jersey,Warren,$3.180
+FL,Florida,Alachua,$3.348
+FL,Florida,Baker,$3.248
+FL,Florida,Bay,$3.095
+FL,Florida,Bradford,$3.343
+FL,Florida,Brevard,$3.216
+FL,Florida,Broward,$3.332
+FL,Florida,Calhoun,$3.299
+FL,Florida,Charlotte,$3.208
+FL,Florida,Citrus,$3.257
+FL,Florida,Clay,$3.225
+FL,Florida,Collier,$3.324
+FL,Florida,Columbia,$3.285
+FL,Florida,De Soto,$3.335
+FL,Florida,Dixie,$3.297
+FL,Florida,Duval,$3.223
+FL,Florida,Escambia,$3.085
+FL,Florida,Flagler,$3.272
+FL,Florida,Franklin,$3.249
+FL,Florida,Gadsden,$3.300
+FL,Florida,Gilchrist,$3.223
+FL,Florida,Glades,$3.379
+FL,Florida,Gulf,$3.164
+FL,Florida,Hamilton,$3.184
+FL,Florida,Hardee,$3.250
+FL,Florida,Hendry,$3.398
+FL,Florida,Hernando,$3.247
+FL,Florida,Highlands,$3.268
+FL,Florida,Hillsborough,$3.239
+FL,Florida,Holmes,$3.189
+FL,Florida,Indian River,$3.334
+FL,Florida,Jackson,$3.179
+FL,Florida,Jefferson,$3.405
+FL,Florida,Lafayette,$3.339
+FL,Florida,Lake,$3.209
+FL,Florida,Lee,$3.220
+FL,Florida,Leon,$3.257
+FL,Florida,Levy,$3.353
+FL,Florida,Liberty,$3.314
+FL,Florida,Madison,$3.291
+FL,Florida,Manatee,$3.222
+FL,Florida,Marion,$3.265
+FL,Florida,Martin,$3.310
+FL,Florida,Miami Dade,$3.254
+FL,Florida,Monroe,$3.381
+FL,Florida,Nassau,$3.246
+FL,Florida,Okaloosa,$3.086
+FL,Florida,Okeechobee,$3.329
+FL,Florida,Orange,$3.211
+FL,Florida,Osceola,$3.181
+FL,Florida,Palm Beach,$3.478
+FL,Florida,Pasco,$3.194
+FL,Florida,Pinellas,$3.220
+FL,Florida,Polk,$3.255
+FL,Florida,Putnam,$3.235
+FL,Florida,Santa Rosa,$3.136
+FL,Florida,Sarasota,$3.253
+FL,Florida,Seminole,$3.203
+FL,Florida,Saint Johns,$3.260
+FL,Florida,Saint Lucie,$3.286
+FL,Florida,Sumter,$3.256
+FL,Florida,Suwannee,$3.311
+FL,Florida,Taylor,$3.265
+FL,Florida,Union,$3.251
+FL,Florida,Volusia,$3.239
+FL,Florida,Wakulla,$3.319
+FL,Florida,Walton,$3.124
+FL,Florida,Washington,$3.287
+RI,Rhode Island,Bristol,$3.225
+RI,Rhode Island,Kent,$3.196
+RI,Rhode Island,Newport,$3.327
+RI,Rhode Island,Providence,$3.247
+RI,Rhode Island,Washington,$3.324
+OH,Ohio,Adams,$3.247
+OH,Ohio,Allen,$3.107
+OH,Ohio,Ashland,$3.135
+OH,Ohio,Ashtabula,$3.404
+OH,Ohio,Athens,$3.283
+OH,Ohio,Auglaize,$3.157
+OH,Ohio,Belmont,$3.254
+OH,Ohio,Brown,$3.187
+OH,Ohio,Butler,$3.167
+OH,Ohio,Carroll,$3.363
+OH,Ohio,Champaign,$3.203
+OH,Ohio,Clark,$3.120
+OH,Ohio,Clermont,$3.192
+OH,Ohio,Clinton,$3.279
+OH,Ohio,Columbiana,$3.383
+OH,Ohio,Coshocton,$3.136
+OH,Ohio,Crawford,$3.149
+OH,Ohio,Cuyahoga,$3.425
+OH,Ohio,Darke,$3.107
+OH,Ohio,Defiance,$3.212
+OH,Ohio,Delaware,$3.167
+OH,Ohio,Erie,$3.088
+OH,Ohio,Fairfield,$3.257
+OH,Ohio,Fayette,$3.246
+OH,Ohio,Franklin,$3.239
+OH,Ohio,Fulton,$3.103
+OH,Ohio,Gallia,$3.151
+OH,Ohio,Geauga,$3.482
+OH,Ohio,Greene,$3.117
+OH,Ohio,Guernsey,$3.240
+OH,Ohio,Hamilton,$3.214
+OH,Ohio,Hancock,$3.106
+OH,Ohio,Hardin,$3.114
+OH,Ohio,Harrison,$3.293
+OH,Ohio,Henry,$3.182
+OH,Ohio,Highland,$3.183
+OH,Ohio,Hocking,$3.166
+OH,Ohio,Holmes,$3.332
+OH,Ohio,Huron,$3.184
+OH,Ohio,Jackson,$3.211
+OH,Ohio,Jefferson,$3.252
+OH,Ohio,Knox,$3.194
+OH,Ohio,Lake,$3.467
+OH,Ohio,Lawrence,$3.060
+OH,Ohio,Licking,$3.235
+OH,Ohio,Logan,$3.194
+OH,Ohio,Lorain,$3.359
+OH,Ohio,Lucas,$3.132
+OH,Ohio,Madison,$3.255
+OH,Ohio,Mahoning,$3.373
+OH,Ohio,Marion,$3.220
+OH,Ohio,Medina,$3.431
+OH,Ohio,Meigs,$3.128
+OH,Ohio,Mercer,$3.179
+OH,Ohio,Miami,$3.116
+OH,Ohio,Monroe,$3.387
+OH,Ohio,Montgomery,$3.090
+OH,Ohio,Morgan,$3.349
+OH,Ohio,Morrow,$3.255
+OH,Ohio,Muskingum,$3.274
+OH,Ohio,Noble,$3.406
+OH,Ohio,Ottawa,$3.146
+OH,Ohio,Paulding,$3.208
+OH,Ohio,Perry,$3.218
+OH,Ohio,Pickaway,$3.238
+OH,Ohio,Pike,$3.257
+OH,Ohio,Portage,$3.378
+OH,Ohio,Preble,$3.172
+OH,Ohio,Putnam,$3.252
+OH,Ohio,Richland,$3.224
+OH,Ohio,Ross,$3.179
+OH,Ohio,Sandusky,$3.133
+OH,Ohio,Scioto,$3.121
+OH,Ohio,Seneca,$3.146
+OH,Ohio,Shelby,$3.056
+OH,Ohio,Stark,$3.311
+OH,Ohio,Summit,$3.407
+OH,Ohio,Trumbull,$3.346
+OH,Ohio,Tuscarawas,$3.215
+OH,Ohio,Union,$3.217
+OH,Ohio,Van Wert,$3.125
+OH,Ohio,Vinton,$3.259
+OH,Ohio,Warren,$3.135
+OH,Ohio,Washington,$3.250
+OH,Ohio,Wayne,$3.337
+OH,Ohio,Williams,$3.259
+OH,Ohio,Wood,$3.113
+OH,Ohio,Wyandot,$3.176
+WV,West Virginia,Barbour,$3.364
+WV,West Virginia,Berkeley,$3.290
+WV,West Virginia,Boone,$3.064
+WV,West Virginia,Braxton,$3.295
+WV,West Virginia,Brooke,$3.289
+WV,West Virginia,Cabell,$3.132
+WV,West Virginia,Calhoun,$3.399
+WV,West Virginia,Clay,$3.299
+WV,West Virginia,Doddridge,$3.249
+WV,West Virginia,Fayette,$3.177
+WV,West Virginia,Gilmer,$3.274
+WV,West Virginia,Grant,$3.516
+WV,West Virginia,Greenbrier,$3.059
+WV,West Virginia,Hampshire,$3.460
+WV,West Virginia,Hancock,$3.316
+WV,West Virginia,Hardy,$3.511
+WV,West Virginia,Harrison,$3.313
+WV,West Virginia,Jackson,$3.135
+WV,West Virginia,Jefferson,$3.265
+WV,West Virginia,Kanawha,$3.057
+WV,West Virginia,Lewis,$3.095
+WV,West Virginia,Lincoln,$3.016
+WV,West Virginia,Logan,$3.117
+WV,West Virginia,Marion,$3.273
+WV,West Virginia,Marshall,$3.144
+WV,West Virginia,Mason,$3.110
+WV,West Virginia,McDowell,$3.190
+WV,West Virginia,Mercer,$3.254
+WV,West Virginia,Mineral,$3.425
+WV,West Virginia,Mingo,$3.028
+WV,West Virginia,Monongalia,$3.341
+WV,West Virginia,Monroe,$3.249
+WV,West Virginia,Morgan,$3.283
+WV,West Virginia,Nicholas,$3.355
+WV,West Virginia,Ohio,$3.313
+WV,West Virginia,Pendleton,$3.559
+WV,West Virginia,Pleasants,$3.196
+WV,West Virginia,Pocahontas,$3.266
+WV,West Virginia,Preston,$3.350
+WV,West Virginia,Putnam,$3.173
+WV,West Virginia,Raleigh,$3.214
+WV,West Virginia,Randolph,$3.196
+WV,West Virginia,Ritchie,$3.119
+WV,West Virginia,Roane,$3.199
+WV,West Virginia,Summers,$3.199
+WV,West Virginia,Taylor,$3.123
+WV,West Virginia,Tucker,$3.399
+WV,West Virginia,Tyler,$3.266
+WV,West Virginia,Upshur,$3.330
+WV,West Virginia,Wayne,$3.132
+WV,West Virginia,Webster,$3.266
+WV,West Virginia,Wetzel,$3.237
+WV,West Virginia,Wirt,$2.949
+WV,West Virginia,Wood,$3.162
+WV,West Virginia,Wyoming,$3.178
+NH,New Hampshire,Belknap,$3.169
+NH,New Hampshire,Carroll,$3.313
+NH,New Hampshire,Cheshire,$3.194
+NH,New Hampshire,Coos,$3.320
+NH,New Hampshire,Grafton,$3.283
+NH,New Hampshire,Hillsborough,$3.209
+NH,New Hampshire,Merrimack,$3.206
+NH,New Hampshire,Rockingham,$3.131
+NH,New Hampshire,Strafford,$3.198
+NH,New Hampshire,Sullivan,$3.225
+SD,South Dakota,Aurora,$2.999
+SD,South Dakota,Beadle,$2.959
+SD,South Dakota,Bennett,
+SD,South Dakota,Bon Homme,$2.999
+SD,South Dakota,Brookings,$3.081
+SD,South Dakota,Brown,$3.019
+SD,South Dakota,Brule,$3.127
+SD,South Dakota,Buffalo,
+SD,South Dakota,Butte,$3.556
+SD,South Dakota,Campbell,$3.129
+SD,South Dakota,Charles Mix,$2.972
+SD,South Dakota,Clark,
+SD,South Dakota,Clay,$2.999
+SD,South Dakota,Codington,$3.079
+SD,South Dakota,Corson,
+SD,South Dakota,Custer,$3.532
+SD,South Dakota,Davison,$3.007
+SD,South Dakota,Day,$3.192
+SD,South Dakota,Deuel,$3.069
+SD,South Dakota,Dewey,$3.399
+SD,South Dakota,Douglas,
+SD,South Dakota,Edmunds,$2.939
+SD,South Dakota,Fall River,$3.459
+SD,South Dakota,Faulk,
+SD,South Dakota,Grant,$3.069
+SD,South Dakota,Gregory,$3.012
+SD,South Dakota,Haakon,$3.259
+SD,South Dakota,Hamlin,$3.124
+SD,South Dakota,Hand,$3.069
+SD,South Dakota,Hanson,$2.999
+SD,South Dakota,Harding,$3.299
+SD,South Dakota,Hughes,$3.273
+SD,South Dakota,Hutchinson,$2.975
+SD,South Dakota,Hyde,$3.299
+SD,South Dakota,Jackson,$3.359
+SD,South Dakota,Jerauld,$2.999
+SD,South Dakota,Jones,$2.999
+SD,South Dakota,Kingsbury,$3.092
+SD,South Dakota,Lake,$3.033
+SD,South Dakota,Lawrence,$3.514
+SD,South Dakota,Lincoln,$3.091
+SD,South Dakota,Lyman,$3.449
+SD,South Dakota,Marshall,
+SD,South Dakota,McCook,$2.999
+SD,South Dakota,McPherson,
+SD,South Dakota,Meade,$3.562
+SD,South Dakota,Mellette,$3.099
+SD,South Dakota,Miner,$3.159
+SD,South Dakota,Minnehaha,$3.098
+SD,South Dakota,Moody,$3.285
+SD,South Dakota,Pennington,$3.485
+SD,South Dakota,Perkins,$3.199
+SD,South Dakota,Potter,$3.444
+SD,South Dakota,Roberts,$3.179
+SD,South Dakota,Sanborn,$3.154
+SD,South Dakota,Shannon,$3.477
+SD,South Dakota,Spink,$2.999
+SD,South Dakota,Stanley,$3.616
+SD,South Dakota,Sully,
+SD,South Dakota,Todd,$3.256
+SD,South Dakota,Tripp,$3.049
+SD,South Dakota,Turner,$3.049
+SD,South Dakota,Union,$3.153
+SD,South Dakota,Walworth,$3.132
+SD,South Dakota,Yankton,$2.954
+SD,South Dakota,Ziebach,$3.489
+CT,Connecticut,Fairfield,$3.317
+CT,Connecticut,Hartford,$3.127
+CT,Connecticut,Litchfield,$3.193
+CT,Connecticut,Middlesex,$3.158
+CT,Connecticut,New Haven,$3.152
+CT,Connecticut,New London,$3.168
+CT,Connecticut,Tolland,$3.118
+CT,Connecticut,Windham,$3.234
+DE,Delaware,Kent,$3.177
+DE,Delaware,New castle,$3.199
+DE,Delaware,Sussex,$3.180
+WY,Wyoming,Albany,$3.115
+WY,Wyoming,Big Horn,$3.236
+WY,Wyoming,Campbell,$3.119
+WY,Wyoming,Carbon,$3.345
+WY,Wyoming,Converse,$3.209
+WY,Wyoming,Crook,$3.292
+WY,Wyoming,Fremont,$3.325
+WY,Wyoming,Goshen,$3.241
+WY,Wyoming,Hot Springs,$3.149
+WY,Wyoming,Johnson,$3.306
+WY,Wyoming,Laramie,$2.995
+WY,Wyoming,Lincoln,$3.313
+WY,Wyoming,Natrona,$2.980
+WY,Wyoming,Niobrara,$3.394
+WY,Wyoming,Park,$2.957
+WY,Wyoming,Platte,$3.409
+WY,Wyoming,Sheridan,$3.012
+WY,Wyoming,Sublette,$3.115
+WY,Wyoming,Sweetwater,$3.278
+WY,Wyoming,Teton,$3.785
+WY,Wyoming,Uinta,$3.031
+WY,Wyoming,Washakie,$3.243
+WY,Wyoming,Weston,$3.338
+NM,New Mexico,Bernalillo,$3.182
+NM,New Mexico,Catron,$3.647
+NM,New Mexico,Chaves,$3.042
+NM,New Mexico,Cibola,$3.144
+NM,New Mexico,Colfax,$3.278
+NM,New Mexico,Curry,$3.191
+NM,New Mexico,De Baca,$3.199
+NM,New Mexico,Dona Ana,$3.218
+NM,New Mexico,Eddy,$3.149
+NM,New Mexico,Grant,$3.582
+NM,New Mexico,Guadalupe,$3.211
+NM,New Mexico,Harding,
+NM,New Mexico,Hidalgo,$3.285
+NM,New Mexico,Lea,$3.116
+NM,New Mexico,Lincoln,$3.197
+NM,New Mexico,Los Alamos,$3.112
+NM,New Mexico,Luna,$3.384
+NM,New Mexico,McKinley,$3.034
+NM,New Mexico,Mora,$3.266
+NM,New Mexico,Otero,$2.976
+NM,New Mexico,Quay,$3.138
+NM,New Mexico,Rio Arriba,$3.013
+NM,New Mexico,Roosevelt,$3.201
+NM,New Mexico,San Juan,$3.294
+NM,New Mexico,San Miguel,$3.213
+NM,New Mexico,Sandoval,$3.205
+NM,New Mexico,Santa Fe,$3.002
+NM,New Mexico,Sierra,$3.465
+NM,New Mexico,Socorro,$3.279
+NM,New Mexico,Taos,$3.060
+NM,New Mexico,Torrance,$3.265
+NM,New Mexico,Union,$3.009
+NM,New Mexico,Valencia,$3.159
+VA,Virginia,Accomack,$3.195
+VA,Virginia,Albemarle,$3.191
+VA,Virginia,Alexandria City,$3.371
+VA,Virginia,Alleghany,$3.149
+VA,Virginia,Amelia,$3.185
+VA,Virginia,Amherst,$3.167
+VA,Virginia,Appomattox,$3.143
+VA,Virginia,Arlington,$3.405
+VA,Virginia,Augusta,$3.151
+VA,Virginia,Bath,$3.162
+VA,Virginia,Bedford,$3.136
+VA,Virginia,Bedford City,$3.005
+VA,Virginia,Bland,$3.066
+VA,Virginia,Botetourt,$3.171
+VA,Virginia,Bristol,$3.133
+VA,Virginia,Brunswick,$3.034
+VA,Virginia,Buchanan,$3.149
+VA,Virginia,Buckingham,$3.102
+VA,Virginia,Buena Vista City,$3.166
+VA,Virginia,Campbell,$3.143
+VA,Virginia,Caroline,$3.129
+VA,Virginia,Carroll,$3.120
+VA,Virginia,Charles City,$3.229
+VA,Virginia,Charlotte,$3.163
+VA,Virginia,Charlottesville City,$3.251
+VA,Virginia,Chesapeake City,$3.110
+VA,Virginia,Chesterfield,$3.108
+VA,Virginia,Clarke,$3.210
+VA,Virginia,Clifton Forge City,$3.194
+VA,Virginia,Colonial Heights City,$3.168
+VA,Virginia,Covington City,$3.148
+VA,Virginia,Craig,$3.199
+VA,Virginia,Culpeper,$3.117
+VA,Virginia,Cumberland,$3.016
+VA,Virginia,Danville City,$3.096
+VA,Virginia,Dickenson,$3.169
+VA,Virginia,Dinwiddie,$3.112
+VA,Virginia,Emporia City,$3.283
+VA,Virginia,Essex,$3.201
+VA,Virginia,Fairfax,$3.379
+VA,Virginia,Fairfax City,$3.348
+VA,Virginia,Falls Church City,$3.303
+VA,Virginia,Fauquier,$3.229
+VA,Virginia,Floyd,$3.199
+VA,Virginia,Fluvanna,$3.211
+VA,Virginia,Franklin,$3.189
+VA,Virginia,Franklin City,$3.008
+VA,Virginia,Frederick,$3.188
+VA,Virginia,Fredericksburg City,$3.181
+VA,Virginia,Galax City,$3.151
+VA,Virginia,Giles,$3.187
+VA,Virginia,Gloucester,$3.006
+VA,Virginia,Goochland,$3.214
+VA,Virginia,Grayson,$3.096
+VA,Virginia,Greene,$3.209
+VA,Virginia,Greensville,$2.999
+VA,Virginia,Halifax,$3.129
+VA,Virginia,Hampton City,$3.131
+VA,Virginia,Hanover,$3.152
+VA,Virginia,Harrisonburg City,$3.158
+VA,Virginia,Henrico,$3.166
+VA,Virginia,Henry,$3.050
+VA,Virginia,Highland,$3.299
+VA,Virginia,Hopewell City,$3.175
+VA,Virginia,Isle of Wight,$3.084
+VA,Virginia,James City,$3.214
+VA,Virginia,King and Queen,$3.125
+VA,Virginia,King George,$3.135
+VA,Virginia,King William,$3.122
+VA,Virginia,Lancaster,$3.160
+VA,Virginia,Lee,$3.161
+VA,Virginia,Lexington City,$3.276
+VA,Virginia,Loudoun,$3.223
+VA,Virginia,Louisa,$3.212
+VA,Virginia,Lunenburg,$3.108
+VA,Virginia,Lynchburg City,$3.151
+VA,Virginia,Madison,$3.268
+VA,Virginia,Manassas City,$3.122
+VA,Virginia,Manassas Park City,
+VA,Virginia,Martinsville City,$3.053
+VA,Virginia,Mathews,$2.986
+VA,Virginia,Mecklenburg,$3.007
+VA,Virginia,Middlesex,$3.048
+VA,Virginia,Montgomery,$3.142
+VA,Virginia,Nelson,$3.235
+VA,Virginia,New Kent,$3.207
+VA,Virginia,Newport News City,$3.131
+VA,Virginia,Norfolk City,$3.099
+VA,Virginia,Northampton,$3.214
+VA,Virginia,Northumberland,$3.159
+VA,Virginia,Norton City,$3.174
+VA,Virginia,Nottoway,$3.204
+VA,Virginia,Orange,$3.168
+VA,Virginia,Page,$3.179
+VA,Virginia,Patrick,$3.093
+VA,Virginia,Petersburg City,$3.091
+VA,Virginia,Pittsylvania,$3.124
+VA,Virginia,Poquoson City,$3.099
+VA,Virginia,Portsmouth City,$3.138
+VA,Virginia,Powhatan,$3.145
+VA,Virginia,Prince Edward,$3.178
+VA,Virginia,Prince George,$3.058
+VA,Virginia,Prince William,$3.231
+VA,Virginia,Pulaski,$3.090
+VA,Virginia,Radford City,$3.100
+VA,Virginia,Rappahannock,$3.229
+VA,Virginia,Richmond,$3.156
+VA,Virginia,Richmond City,$3.163
+VA,Virginia,Roanoke,$3.105
+VA,Virginia,Roanoke City,$3.067
+VA,Virginia,Rockbridge,$3.157
+VA,Virginia,Rockingham,$3.173
+VA,Virginia,Russell,$3.213
+VA,Virginia,Salem,$3.196
+VA,Virginia,Scott,$3.067
+VA,Virginia,Shenandoah,$3.169
+VA,Virginia,Smyth,$3.084
+VA,Virginia,Southampton,$3.069
+VA,Virginia,Spotsylvania,$3.109
+VA,Virginia,Stafford,$3.139
+VA,Virginia,Staunton City,$3.188
+VA,Virginia,Suffolk City,$3.080
+VA,Virginia,Surry,$3.079
+VA,Virginia,Sussex,$3.151
+VA,Virginia,Tazewell,$3.138
+VA,Virginia,Virginia Beach City,$3.149
+VA,Virginia,Warren,$3.151
+VA,Virginia,Washington,$3.151
+VA,Virginia,Waynesboro City,$3.088
+VA,Virginia,Westmoreland,$3.071
+VA,Virginia,Williamsburg City,
+VA,Virginia,Winchester City,$3.178
+VA,Virginia,Wise,$3.263
+VA,Virginia,Wythe,$3.119
+VA,Virginia,York,$3.067
+NC,North Carolina,Alamance,$3.188
+NC,North Carolina,Alexander,$3.100
+NC,North Carolina,Alleghany,$3.189
+NC,North Carolina,Anson,$3.156
+NC,North Carolina,Ashe,$3.078
+NC,North Carolina,Avery,$3.175
+NC,North Carolina,Beaufort,$3.196
+NC,North Carolina,Bertie,$3.199
+NC,North Carolina,Bladen,$3.068
+NC,North Carolina,Brunswick,$3.133
+NC,North Carolina,Buncombe,$3.156
+NC,North Carolina,Burke,$3.090
+NC,North Carolina,Cabarrus,$3.066
+NC,North Carolina,Caldwell,$3.065
+NC,North Carolina,Camden,$3.086
+NC,North Carolina,Carteret,$3.164
+NC,North Carolina,Caswell,$3.159
+NC,North Carolina,Catawba,$3.098
+NC,North Carolina,Chatham,$3.148
+NC,North Carolina,Cherokee,$3.142
+NC,North Carolina,Chowan,$3.192
+NC,North Carolina,Clay,$3.059
+NC,North Carolina,Cleveland,$3.081
+NC,North Carolina,Columbus,$3.136
+NC,North Carolina,Craven,$3.180
+NC,North Carolina,Cumberland,$3.098
+NC,North Carolina,Currituck,$3.208
+NC,North Carolina,Dare,$3.208
+NC,North Carolina,Davidson,$3.157
+NC,North Carolina,Davie,$3.219
+NC,North Carolina,Duplin,$3.171
+NC,North Carolina,Durham,$3.231
+NC,North Carolina,Edgecombe,$3.144
+NC,North Carolina,Forsyth,$3.185
+NC,North Carolina,Franklin,$3.222
+NC,North Carolina,Gaston,$3.043
+NC,North Carolina,Gates,$3.249
+NC,North Carolina,Graham,$3.174
+NC,North Carolina,Granville,$3.176
+NC,North Carolina,Greene,$3.145
+NC,North Carolina,Guilford,$3.206
+NC,North Carolina,Halifax,$3.288
+NC,North Carolina,Harnett,$3.163
+NC,North Carolina,Haywood,$3.142
+NC,North Carolina,Henderson,$3.153
+NC,North Carolina,Hertford,$3.199
+NC,North Carolina,Hoke,$3.160
+NC,North Carolina,Hyde,
+NC,North Carolina,Iredell,$3.118
+NC,North Carolina,Jackson,$3.206
+NC,North Carolina,Johnston,$3.201
+NC,North Carolina,Jones,$3.199
+NC,North Carolina,Lee,$3.079
+NC,North Carolina,Lenoir,$3.150
+NC,North Carolina,Lincoln,$3.068
+NC,North Carolina,Macon,$3.179
+NC,North Carolina,Madison,$3.207
+NC,North Carolina,Martin,$3.193
+NC,North Carolina,McDowell,$3.079
+NC,North Carolina,Mecklenburg,$3.054
+NC,North Carolina,Mitchell,$3.090
+NC,North Carolina,Montgomery,$3.110
+NC,North Carolina,Moore,$3.164
+NC,North Carolina,Nash,$3.185
+NC,North Carolina,New Hanover,$3.134
+NC,North Carolina,Northampton,$3.205
+NC,North Carolina,Onslow,$3.150
+NC,North Carolina,Orange,$3.218
+NC,North Carolina,Pamlico,$3.206
+NC,North Carolina,Pasquotank,$3.126
+NC,North Carolina,Pender,$3.176
+NC,North Carolina,Perquimans,$3.171
+NC,North Carolina,Person,$3.164
+NC,North Carolina,Pitt,$3.210
+NC,North Carolina,Polk,$3.210
+NC,North Carolina,Randolph,$3.169
+NC,North Carolina,Richmond,$3.073
+NC,North Carolina,Robeson,$3.125
+NC,North Carolina,Rockingham,$3.150
+NC,North Carolina,Rowan,$3.153
+NC,North Carolina,Rutherford,$3.135
+NC,North Carolina,Sampson,$3.079
+NC,North Carolina,Scotland,$3.111
+NC,North Carolina,Stanly,$3.113
+NC,North Carolina,Stokes,$3.155
+NC,North Carolina,Surry,$3.185
+NC,North Carolina,Swain,$3.206
+NC,North Carolina,Transylvania,$3.197
+NC,North Carolina,Tyrrell,$3.196
+NC,North Carolina,Union,$3.082
+NC,North Carolina,Vance,$3.236
+NC,North Carolina,Wake,$3.217
+NC,North Carolina,Warren,$3.239
+NC,North Carolina,Washington,$3.155
+NC,North Carolina,Watauga,$3.116
+NC,North Carolina,Wayne,$3.156
+NC,North Carolina,Wilkes,$3.141
+NC,North Carolina,Wilson,$3.155
+NC,North Carolina,Yadkin,$3.151
+NC,North Carolina,Yancey,$3.071
+ND,North Dakota,Adams,$3.299
+ND,North Dakota,Barnes,$3.067
+ND,North Dakota,Benson,$3.182
+ND,North Dakota,Billings,$3.209
+ND,North Dakota,Bottineau,$3.237
+ND,North Dakota,Bowman,$3.219
+ND,North Dakota,Burke,$3.149
+ND,North Dakota,Burleigh,$3.199
+ND,North Dakota,Cass,$3.000
+ND,North Dakota,Cavalier,$3.199
+ND,North Dakota,Dickey,$2.999
+ND,North Dakota,Divide,$3.249
+ND,North Dakota,Dunn,$3.257
+ND,North Dakota,Eddy,$3.099
+ND,North Dakota,Emmons,$3.149
+ND,North Dakota,Foster,$3.066
+ND,North Dakota,Golden Valley,$3.199
+ND,North Dakota,Grand Forks,$3.186
+ND,North Dakota,Grant,
+ND,North Dakota,Griggs,$3.099
+ND,North Dakota,Hettinger,$3.099
+ND,North Dakota,Kidder,$3.099
+ND,North Dakota,LaMoure,$3.166
+ND,North Dakota,Logan,
+ND,North Dakota,McHenry,$3.214
+ND,North Dakota,McIntosh,
+ND,North Dakota,McKenzie,$3.366
+ND,North Dakota,McLean,$3.156
+ND,North Dakota,Mercer,$3.169
+ND,North Dakota,Morton,$3.185
+ND,North Dakota,Mountrail,$3.196
+ND,North Dakota,Nelson,$3.199
+ND,North Dakota,Oliver,$3.199
+ND,North Dakota,Pembina,$3.103
+ND,North Dakota,Pierce,$3.099
+ND,North Dakota,Ramsey,$3.211
+ND,North Dakota,Ransom,$3.031
+ND,North Dakota,Renville,$3.099
+ND,North Dakota,Richland,$3.080
+ND,North Dakota,Rolette,$3.119
+ND,North Dakota,Sargent,$3.099
+ND,North Dakota,Sheridan,
+ND,North Dakota,Sioux,$3.199
+ND,North Dakota,Slope,
+ND,North Dakota,Stark,$3.223
+ND,North Dakota,Steele,
+ND,North Dakota,Stutsman,$3.098
+ND,North Dakota,Towner,$3.139
+ND,North Dakota,Traill,$3.016
+ND,North Dakota,Walsh,$3.179
+ND,North Dakota,Ward,$3.160
+ND,North Dakota,Wells,$3.099
+ND,North Dakota,Williams,$3.197
+NE,Nebraska,Adams,$3.121
+NE,Nebraska,Antelope,$3.069
+NE,Nebraska,Arthur,
+NE,Nebraska,Banner,
+NE,Nebraska,Blaine,
+NE,Nebraska,Boone,$3.266
+NE,Nebraska,Box Butte,$3.278
+NE,Nebraska,Boyd,$3.059
+NE,Nebraska,Brown,$3.132
+NE,Nebraska,Buffalo,$3.122
+NE,Nebraska,Burt,$3.106
+NE,Nebraska,Butler,$3.032
+NE,Nebraska,Cass,$3.101
+NE,Nebraska,Cedar,$3.199
+NE,Nebraska,Chase,$3.499
+NE,Nebraska,Cherry,$3.199
+NE,Nebraska,Cheyenne,$3.028
+NE,Nebraska,Clay,$3.102
+NE,Nebraska,Colfax,$3.002
+NE,Nebraska,Cuming,$3.099
+NE,Nebraska,Custer,$3.079
+NE,Nebraska,Dakota,$3.199
+NE,Nebraska,Dawes,$3.449
+NE,Nebraska,Dawson,$3.197
+NE,Nebraska,Deuel,$3.066
+NE,Nebraska,Dixon,$2.999
+NE,Nebraska,Dodge,$3.091
+NE,Nebraska,Douglas,$3.108
+NE,Nebraska,Dundy,$3.749
+NE,Nebraska,Fillmore,$3.100
+NE,Nebraska,Franklin,$3.199
+NE,Nebraska,Frontier,$3.199
+NE,Nebraska,Furnas,$3.092
+NE,Nebraska,Gage,$3.130
+NE,Nebraska,Garden,
+NE,Nebraska,Garfield,$3.349
+NE,Nebraska,Gosper,$2.979
+NE,Nebraska,Grant,
+NE,Nebraska,Greeley,$2.999
+NE,Nebraska,Hall,$3.129
+NE,Nebraska,Hamilton,$3.214
+NE,Nebraska,Harlan,$3.149
+NE,Nebraska,Hayes,
+NE,Nebraska,Hitchcock,$3.549
+NE,Nebraska,Holt,$3.118
+NE,Nebraska,Hooker,
+NE,Nebraska,Howard,$3.099
+NE,Nebraska,Jefferson,$3.049
+NE,Nebraska,Johnson,$3.099
+NE,Nebraska,Kearney,$3.199
+NE,Nebraska,Keith,$3.043
+NE,Nebraska,Keya Paha,
+NE,Nebraska,Kimball,$3.353
+NE,Nebraska,Knox,$3.084
+NE,Nebraska,Lancaster,$3.179
+NE,Nebraska,Lincoln,$3.268
+NE,Nebraska,Logan,$3.149
+NE,Nebraska,Loup,
+NE,Nebraska,Madison,$3.044
+NE,Nebraska,McPherson,
+NE,Nebraska,Merrick,$3.099
+NE,Nebraska,Morrill,$3.144
+NE,Nebraska,Nance,$2.974
+NE,Nebraska,Nemaha,$3.099
+NE,Nebraska,Nuckolls,$2.999
+NE,Nebraska,Otoe,$3.150
+NE,Nebraska,Pawnee,$3.099
+NE,Nebraska,Perkins,$3.239
+NE,Nebraska,Phelps,$3.099
+NE,Nebraska,Pierce,$3.012
+NE,Nebraska,Platte,$3.180
+NE,Nebraska,Polk,$3.076
+NE,Nebraska,Red Willow,$3.139
+NE,Nebraska,Richardson,$3.099
+NE,Nebraska,Rock,
+NE,Nebraska,Saline,$3.099
+NE,Nebraska,Sarpy,$3.069
+NE,Nebraska,Saunders,$3.185
+NE,Nebraska,Scotts Bluff,$3.135
+NE,Nebraska,Seward,$3.167
+NE,Nebraska,Sheridan,$3.299
+NE,Nebraska,Sherman,
+NE,Nebraska,Sioux,
+NE,Nebraska,Stanton,$2.999
+NE,Nebraska,Thayer,$3.099
+NE,Nebraska,Thomas,$3.799
+NE,Nebraska,Thurston,$3.439
+NE,Nebraska,Valley,$3.069
+NE,Nebraska,Washington,$3.090
+NE,Nebraska,Wayne,$3.099
+NE,Nebraska,Webster,$3.099
+NE,Nebraska,Wheeler,$3.549
+NE,Nebraska,York,$3.172
+WI,Wisconsin,Adams,$3.279
+WI,Wisconsin,Ashland,$3.237
+WI,Wisconsin,Barron,$3.185
+WI,Wisconsin,Bayfield,$3.263
+WI,Wisconsin,Brown,$3.146
+WI,Wisconsin,Buffalo,$3.149
+WI,Wisconsin,Burnett,$3.107
+WI,Wisconsin,Calumet,$3.108
+WI,Wisconsin,Chippewa,$3.187
+WI,Wisconsin,Clark,$3.209
+WI,Wisconsin,Columbia,$3.085
+WI,Wisconsin,Crawford,$3.279
+WI,Wisconsin,Dane,$3.068
+WI,Wisconsin,Dodge,$3.124
+WI,Wisconsin,Door,$3.134
+WI,Wisconsin,Douglas,$3.313
+WI,Wisconsin,Dunn,$3.100
+WI,Wisconsin,Eau Claire,$3.148
+WI,Wisconsin,Florence,$3.336
+WI,Wisconsin,Fond du Lac,$3.176
+WI,Wisconsin,Forest,$3.292
+WI,Wisconsin,Grant,$3.207
+WI,Wisconsin,Green,$3.048
+WI,Wisconsin,Green Lake,$3.160
+WI,Wisconsin,Iowa,$3.177
+WI,Wisconsin,Iron,$3.272
+WI,Wisconsin,Jackson,$3.076
+WI,Wisconsin,Jefferson,$3.123
+WI,Wisconsin,Juneau,$3.155
+WI,Wisconsin,Kenosha,$3.033
+WI,Wisconsin,Kewaunee,$3.171
+WI,Wisconsin,La Crosse,$3.270
+WI,Wisconsin,Lafayette,$3.283
+WI,Wisconsin,Langlade,$3.193
+WI,Wisconsin,Lincoln,$3.170
+WI,Wisconsin,Manitowoc,$3.115
+WI,Wisconsin,Marathon,$3.153
+WI,Wisconsin,Marinette,$3.221
+WI,Wisconsin,Marquette,$3.159
+WI,Wisconsin,Menominee,$3.299
+WI,Wisconsin,Milwaukee,$3.114
+WI,Wisconsin,Monroe,$3.252
+WI,Wisconsin,Oconto,$3.228
+WI,Wisconsin,Oneida,$3.219
+WI,Wisconsin,Outagamie,$3.049
+WI,Wisconsin,Ozaukee,$3.145
+WI,Wisconsin,Pepin,$3.143
+WI,Wisconsin,Pierce,$3.190
+WI,Wisconsin,Polk,$3.179
+WI,Wisconsin,Portage,$3.242
+WI,Wisconsin,Price,$3.297
+WI,Wisconsin,Racine,$3.087
+WI,Wisconsin,Richland,$3.159
+WI,Wisconsin,Rock,$3.019
+WI,Wisconsin,Rusk,$3.093
+WI,Wisconsin,Sauk,$3.053
+WI,Wisconsin,Sawyer,$3.240
+WI,Wisconsin,Shawano,$3.221
+WI,Wisconsin,Sheboygan,$3.063
+WI,Wisconsin,Saint Croix,$3.233
+WI,Wisconsin,Taylor,$3.232
+WI,Wisconsin,Trempealeau,$3.158
+WI,Wisconsin,Vernon,$3.243
+WI,Wisconsin,Vilas,$3.249
+WI,Wisconsin,Walworth,$3.105
+WI,Wisconsin,Washburn,$3.151
+WI,Wisconsin,Washington,$3.114
+WI,Wisconsin,Waukesha,$3.075
+WI,Wisconsin,Waupaca,$3.135
+WI,Wisconsin,Waushara,$3.170
+WI,Wisconsin,Winnebago,$3.029
+WI,Wisconsin,Wood,$3.226
+MN,Minnesota,Aitkin,$3.120
+MN,Minnesota,Anoka,$3.067
+MN,Minnesota,Becker,$3.182
+MN,Minnesota,Beltrami,$3.199
+MN,Minnesota,Benton,$3.120
+MN,Minnesota,Big Stone,$3.199
+MN,Minnesota,Blue Earth,$3.143
+MN,Minnesota,Brown,$3.073
+MN,Minnesota,Carlton,$3.058
+MN,Minnesota,Carver,$3.143
+MN,Minnesota,Cass,$3.156
+MN,Minnesota,Chippewa,$3.166
+MN,Minnesota,Chisago,$3.144
+MN,Minnesota,Clay,$3.179
+MN,Minnesota,Clearwater,$3.192
+MN,Minnesota,Cook,$3.303
+MN,Minnesota,Cottonwood,$3.042
+MN,Minnesota,Crow Wing,$3.031
+MN,Minnesota,Dakota,$3.096
+MN,Minnesota,Dodge,$3.155
+MN,Minnesota,Douglas,$3.105
+MN,Minnesota,Faribault,$3.295
+MN,Minnesota,Fillmore,$3.263
+MN,Minnesota,Freeborn,$3.124
+MN,Minnesota,Goodhue,$3.158
+MN,Minnesota,Grant,$3.099
+MN,Minnesota,Hennepin,$3.108
+MN,Minnesota,Houston,$3.255
+MN,Minnesota,Hubbard,$3.191
+MN,Minnesota,Isanti,$3.017
+MN,Minnesota,Itasca,$3.227
+MN,Minnesota,Jackson,$3.161
+MN,Minnesota,Kanabec,$3.153
+MN,Minnesota,Kandiyohi,$3.196
+MN,Minnesota,Kittson,$3.099
+MN,Minnesota,Koochiching,$3.110
+MN,Minnesota,Lac Qui Parle,$3.247
+MN,Minnesota,Lake,$3.181
+MN,Minnesota,Lake of the Woods,$3.199
+MN,Minnesota,Le Sueur,$3.133
+MN,Minnesota,Lincoln,$3.219
+MN,Minnesota,Lyon,$3.240
+MN,Minnesota,Mahnomen,$3.099
+MN,Minnesota,Marshall,$3.106
+MN,Minnesota,Martin,$3.299
+MN,Minnesota,McLeod,$3.096
+MN,Minnesota,Meeker,$3.254
+MN,Minnesota,Mille Lacs,$3.157
+MN,Minnesota,Morrison,$3.073
+MN,Minnesota,Mower,$3.256
+MN,Minnesota,Murray,$3.061
+MN,Minnesota,Nicollet,$3.102
+MN,Minnesota,Nobles,$3.073
+MN,Minnesota,Norman,$3.132
+MN,Minnesota,Olmsted,$3.290
+MN,Minnesota,Otter Tail,$3.199
+MN,Minnesota,Pennington,$3.043
+MN,Minnesota,Pine,$3.202
+MN,Minnesota,Pipestone,$3.176
+MN,Minnesota,Polk,$3.156
+MN,Minnesota,Pope,$3.116
+MN,Minnesota,Ramsey,$3.121
+MN,Minnesota,Red Lake,$3.099
+MN,Minnesota,Redwood,$3.299
+MN,Minnesota,Renville,$3.268
+MN,Minnesota,Rice,$3.098
+MN,Minnesota,Rock,$3.269
+MN,Minnesota,Roseau,$3.216
+MN,Minnesota,Scott,$3.089
+MN,Minnesota,Sherburne,$3.116
+MN,Minnesota,Sibley,$3.218
+MN,Minnesota,Saint Louis,$3.158
+MN,Minnesota,Stearns,$3.035
+MN,Minnesota,Steele,$3.030
+MN,Minnesota,Stevens,$3.099
+MN,Minnesota,Swift,$3.174
+MN,Minnesota,Todd,$3.129
+MN,Minnesota,Traverse,$3.122
+MN,Minnesota,Wabasha,$3.203
+MN,Minnesota,Wadena,$3.188
+MN,Minnesota,Waseca,$3.179
+MN,Minnesota,Washington,$3.076
+MN,Minnesota,Watonwan,$3.096
+MN,Minnesota,Wilkin,$3.109
+MN,Minnesota,Winona,$3.233
+MN,Minnesota,Wright,$3.087
+MN,Minnesota,Yellow Medicine,$3.224
+IA,Iowa,Adair,$3.149
+IA,Iowa,Adams,$3.099
+IA,Iowa,Allamakee,$3.299
+IA,Iowa,Appanoose,$3.099
+IA,Iowa,Audubon,$3.341
+IA,Iowa,Benton,$3.157
+IA,Iowa,Black Hawk,$3.038
+IA,Iowa,Boone,$3.099
+IA,Iowa,Bremer,$3.299
+IA,Iowa,Buchanan,$3.265
+IA,Iowa,Buena Vista,$3.024
+IA,Iowa,Butler,$3.286
+IA,Iowa,Calhoun,$3.127
+IA,Iowa,Carroll,$3.173
+IA,Iowa,Cass,$3.143
+IA,Iowa,Cedar,$3.198
+IA,Iowa,Cerro Gordo,$3.063
+IA,Iowa,Cherokee,$3.214
+IA,Iowa,Chickasaw,$3.274
+IA,Iowa,Clarke,$3.046
+IA,Iowa,Clay,$3.067
+IA,Iowa,Clayton,$3.223
+IA,Iowa,Clinton,$3.172
+IA,Iowa,Crawford,$3.149
+IA,Iowa,Dallas,$3.165
+IA,Iowa,Davis,$3.099
+IA,Iowa,Decatur,$2.982
+IA,Iowa,Delaware,$3.276
+IA,Iowa,Des Moines,$3.058
+IA,Iowa,Dickinson,$3.080
+IA,Iowa,Dubuque,$3.216
+IA,Iowa,Emmet,$3.194
+IA,Iowa,Fayette,$3.166
+IA,Iowa,Floyd,$3.230
+IA,Iowa,Franklin,$3.044
+IA,Iowa,Fremont,$3.039
+IA,Iowa,Greene,$3.099
+IA,Iowa,Grundy,$3.176
+IA,Iowa,Guthrie,$3.199
+IA,Iowa,Hamilton,$3.147
+IA,Iowa,Hancock,$3.249
+IA,Iowa,Hardin,$3.293
+IA,Iowa,Harrison,$3.065
+IA,Iowa,Henry,$2.945
+IA,Iowa,Howard,$3.257
+IA,Iowa,Humboldt,$3.144
+IA,Iowa,Ida,$3.179
+IA,Iowa,Iowa,$3.114
+IA,Iowa,Jackson,$3.278
+IA,Iowa,Jasper,$2.979
+IA,Iowa,Jefferson,$3.136
+IA,Iowa,Johnson,$3.237
+IA,Iowa,Jones,$3.299
+IA,Iowa,Keokuk,$3.046
+IA,Iowa,Kossuth,$3.026
+IA,Iowa,Lee,$3.202
+IA,Iowa,Linn,$3.079
+IA,Iowa,Louisa,$3.132
+IA,Iowa,Lucas,$3.099
+IA,Iowa,Lyon,$3.131
+IA,Iowa,Madison,$3.170
+IA,Iowa,Mahaska,$3.040
+IA,Iowa,Marion,$3.123
+IA,Iowa,Marshall,$3.225
+IA,Iowa,Mills,$3.125
+IA,Iowa,Mitchell,$3.283
+IA,Iowa,Monona,$3.199
+IA,Iowa,Monroe,$3.101
+IA,Iowa,Montgomery,$3.099
+IA,Iowa,Muscatine,$3.147
+IA,Iowa,O'Brien,
+IA,Iowa,Osceola,$3.056
+IA,Iowa,Page,$3.112
+IA,Iowa,Palo Alto,$3.123
+IA,Iowa,Plymouth,$3.078
+IA,Iowa,Pocahontas,$2.881
+IA,Iowa,Polk,$2.986
+IA,Iowa,Pottawattamie,$3.055
+IA,Iowa,Poweshiek,$3.007
+IA,Iowa,Ringgold,$3.099
+IA,Iowa,Sac,$3.099
+IA,Iowa,Scott,$3.117
+IA,Iowa,Shelby,$3.116
+IA,Iowa,Sioux,$3.165
+IA,Iowa,Story,$3.150
+IA,Iowa,Tama,$3.156
+IA,Iowa,Taylor,$3.106
+IA,Iowa,Union,$3.099
+IA,Iowa,Van Buren,$3.124
+IA,Iowa,Wapello,$3.005
+IA,Iowa,Warren,$3.124
+IA,Iowa,Washington,$3.278
+IA,Iowa,Wayne,$3.099
+IA,Iowa,Webster,$3.029
+IA,Iowa,Winnebago,$3.270
+IA,Iowa,Winneshiek,$3.282
+IA,Iowa,Woodbury,$3.120
+IA,Iowa,Worth,$3.224
+IA,Iowa,Wright,$3.136
+GA,Georgia,Appling,$3.164
+GA,Georgia,Atkinson,$3.112
+GA,Georgia,Bacon,$3.060
+GA,Georgia,Bibb,$3.110
+GA,Georgia,Bulloch,$3.076
+GA,Georgia,Baldwin,$3.075
+GA,Georgia,Brantley,$3.196
+GA,Georgia,Ben Hill,$3.322
+GA,Georgia,Berrien,$3.119
+GA,Georgia,Baker,$3.269
+GA,Georgia,Bleckley,$3.042
+GA,Georgia,Banks,$3.068
+GA,Georgia,Brooks,$3.212
+GA,Georgia,Bryan,$3.185
+GA,Georgia,Butts,$3.132
+GA,Georgia,Bartow,$3.025
+GA,Georgia,Burke,$3.113
+GA,Georgia,Barrow,$3.035
+GA,Georgia,Chatham,$3.173
+GA,Georgia,Cobb,$3.044
+GA,Georgia,Chattahoochee,$3.299
+GA,Georgia,Crawford,$3.199
+GA,Georgia,Cherokee,$3.001
+GA,Georgia,Coffee,$3.115
+GA,Georgia,Chattooga,$3.028
+GA,Georgia,Charlton,$3.199
+GA,Georgia,Clinch,$3.149
+GA,Georgia,Clarke,$3.034
+GA,Georgia,Calhoun,$3.199
+GA,Georgia,Camden,$3.171
+GA,Georgia,Candler,$3.208
+GA,Georgia,Cook,$3.246
+GA,Georgia,Crisp,$3.200
+GA,Georgia,Colquitt,$3.134
+GA,Georgia,Carroll,$3.036
+GA,Georgia,Catoosa,$2.995
+GA,Georgia,Clayton,$3.043
+GA,Georgia,Columbia,$3.018
+GA,Georgia,Coweta,$3.043
+GA,Georgia,Clay,$3.352
+GA,Georgia,Dade,$3.030
+GA,Georgia,Decatur,$3.110
+GA,Georgia,Douglas,$3.047
+GA,Georgia,DeKalb,$3.077
+GA,Georgia,Dooly,$3.181
+GA,Georgia,Dodge,$3.007
+GA,Georgia,Dougherty,$3.046
+GA,Georgia,Dawson,$3.064
+GA,Georgia,Early,$3.399
+GA,Georgia,Echols,
+GA,Georgia,Effingham,$3.021
+GA,Georgia,Elbert,$3.026
+GA,Georgia,Emanuel,$3.254
+GA,Georgia,Evans,$3.030
+GA,Georgia,Fannin,$3.031
+GA,Georgia,Floyd,$2.991
+GA,Georgia,Forsyth,$3.006
+GA,Georgia,Franklin,$3.084
+GA,Georgia,Fulton,$3.164
+GA,Georgia,Fayette,$3.066
+GA,Georgia,Greene,$3.149
+GA,Georgia,Gilmer,$3.035
+GA,Georgia,Glascock,$2.999
+GA,Georgia,Gordon,$3.034
+GA,Georgia,Grady,$3.305
+GA,Georgia,Gwinnett,$3.017
+GA,Georgia,Glynn,$3.138
+GA,Georgia,Habersham,$2.988
+GA,Georgia,Heard,$3.079
+GA,Georgia,Harris,$3.115
+GA,Georgia,Hall,$3.013
+GA,Georgia,Hancock,$3.099
+GA,Georgia,Houston,$2.966
+GA,Georgia,Haralson,$3.042
+GA,Georgia,Hart,$3.078
+GA,Georgia,Henry,$3.043
+GA,Georgia,Irwin,$3.149
+GA,Georgia,Jackson,$3.023
+GA,Georgia,Jeff Davis,$3.063
+GA,Georgia,Jefferson,$3.072
+GA,Georgia,Jenkins,$3.174
+GA,Georgia,Jones,$3.139
+GA,Georgia,Johnson,$3.169
+GA,Georgia,Jasper,$2.839
+GA,Georgia,Lamar,$3.125
+GA,Georgia,Lincoln,$3.232
+GA,Georgia,Lee,$3.024
+GA,Georgia,Liberty,$3.095
+GA,Georgia,Lanier,$3.189
+GA,Georgia,Long,$3.099
+GA,Georgia,Lumpkin,$3.098
+GA,Georgia,Laurens,$3.046
+GA,Georgia,Lowndes,$3.123
+GA,Georgia,Macon,$3.332
+GA,Georgia,Mcduffie,$3.018
+GA,Georgia,Madison,$3.016
+GA,Georgia,Meriwether,$3.057
+GA,Georgia,Montgomery,$3.112
+GA,Georgia,Mcintosh,$3.290
+GA,Georgia,Miller,$3.179
+GA,Georgia,Morgan,$3.083
+GA,Georgia,Monroe,$3.153
+GA,Georgia,Marion,$3.299
+GA,Georgia,Muscogee,$3.065
+GA,Georgia,Mitchell,$3.135
+GA,Georgia,Murray,$2.994
+GA,Georgia,Newton,$3.063
+GA,Georgia,Oconee,$3.028
+GA,Georgia,Oglethorpe,$3.039
+GA,Georgia,Peach,$3.070
+GA,Georgia,Pickens,$3.058
+GA,Georgia,Paulding,$3.012
+GA,Georgia,Pierce,$3.250
+GA,Georgia,Pike,$3.027
+GA,Georgia,Pulaski,$3.033
+GA,Georgia,Polk,$3.027
+GA,Georgia,Putnam,$3.113
+GA,Georgia,Quitman,$3.099
+GA,Georgia,Randolph,$3.124
+GA,Georgia,Rabun,$2.936
+GA,Georgia,Richmond,$3.080
+GA,Georgia,Rockdale,$3.010
+GA,Georgia,Schley,$3.049
+GA,Georgia,Stephens,$3.027
+GA,Georgia,Seminole,$3.266
+GA,Georgia,Spalding,$3.110
+GA,Georgia,Screven,$3.035
+GA,Georgia,Stewart,$3.284
+GA,Georgia,Sumter,$2.970
+GA,Georgia,Taliaferro,$3.069
+GA,Georgia,Talbot,$3.029
+GA,Georgia,Treutlen,$3.199
+GA,Georgia,Telfair,$3.155
+GA,Georgia,Thomas,$3.199
+GA,Georgia,Tift,$3.199
+GA,Georgia,Terrell,$3.155
+GA,Georgia,Toombs,$3.055
+GA,Georgia,Towns,$3.094
+GA,Georgia,Troup,$3.073
+GA,Georgia,Tattnall,$3.149
+GA,Georgia,Turner,$3.226
+GA,Georgia,Twiggs,$3.149
+GA,Georgia,Taylor,$3.319
+GA,Georgia,Union,$3.036
+GA,Georgia,Upson,$2.998
+GA,Georgia,Ware,$3.203
+GA,Georgia,Wilcox,$3.179
+GA,Georgia,Wheeler,$3.094
+GA,Georgia,Washington,$3.065
+GA,Georgia,Whitfield,$3.003
+GA,Georgia,Wilkinson,$2.987
+GA,Georgia,Walker,$2.985
+GA,Georgia,Wilkes,$2.960
+GA,Georgia,Walton,$3.034
+GA,Georgia,Worth,$3.201
+GA,Georgia,Warren,$2.991
+GA,Georgia,Webster,$3.299
+GA,Georgia,White,$3.087
+GA,Georgia,Wayne,$3.138
+AL,Alabama,Autauga,$3.049
+AL,Alabama,Baldwin,$3.073
+AL,Alabama,Barbour,$3.071
+AL,Alabama,Bibb,$3.051
+AL,Alabama,Blount,$3.080
+AL,Alabama,Bullock,$3.199
+AL,Alabama,Butler,$3.158
+AL,Alabama,Calhoun,$2.998
+AL,Alabama,Chambers,$2.932
+AL,Alabama,Cherokee,$2.916
+AL,Alabama,Chilton,$3.039
+AL,Alabama,Choctaw,$3.107
+AL,Alabama,Clarke,$3.113
+AL,Alabama,Clay,$3.099
+AL,Alabama,Cleburne,$3.084
+AL,Alabama,Coffee,$3.041
+AL,Alabama,Colbert,$3.037
+AL,Alabama,Conecuh,$3.309
+AL,Alabama,Coosa,$2.989
+AL,Alabama,Covington,$3.091
+AL,Alabama,Crenshaw,$3.042
+AL,Alabama,Cullman,$3.119
+AL,Alabama,Dale,$3.028
+AL,Alabama,Dallas,$3.105
+AL,Alabama,De Kalb,$3.008
+AL,Alabama,Elmore,$3.062
+AL,Alabama,Escambia,$3.125
+AL,Alabama,Etowah,$2.973
+AL,Alabama,Fayette,$3.077
+AL,Alabama,Franklin,$3.043
+AL,Alabama,Geneva,$3.137
+AL,Alabama,Greene,$3.021
+AL,Alabama,Hale,$3.116
+AL,Alabama,Henry,$3.002
+AL,Alabama,Houston,$3.017
+AL,Alabama,Jackson,$3.035
+AL,Alabama,Jefferson,$3.040
+AL,Alabama,Lamar,$3.091
+AL,Alabama,Lauderdale,$3.026
+AL,Alabama,Lawrence,$3.019
+AL,Alabama,Lee,$2.997
+AL,Alabama,Limestone,$3.012
+AL,Alabama,Lowndes,$3.122
+AL,Alabama,Macon,$3.106
+AL,Alabama,Madison,$3.016
+AL,Alabama,Marengo,$3.033
+AL,Alabama,Marion,$3.051
+AL,Alabama,Marshall,$2.923
+AL,Alabama,Mobile,$3.014
+AL,Alabama,Monroe,$3.087
+AL,Alabama,Montgomery,$3.052
+AL,Alabama,Morgan,$2.963
+AL,Alabama,Perry,$3.229
+AL,Alabama,Pickens,$3.028
+AL,Alabama,Pike,$3.085
+AL,Alabama,Randolph,$3.101
+AL,Alabama,Russell,$3.033
+AL,Alabama,Shelby,$2.974
+AL,Alabama,Saint Clair,$3.036
+AL,Alabama,Sumter,$3.280
+AL,Alabama,Talladega,$3.039
+AL,Alabama,Tallapoosa,$3.061
+AL,Alabama,Tuscaloosa,$3.029
+AL,Alabama,Walker,$3.015
+AL,Alabama,Washington,$3.143
+AL,Alabama,Wilcox,$3.226
+AL,Alabama,Winston,$3.060
+MT,Montana,Beaverhead,$3.182
+MT,Montana,Big Horn,$2.954
+MT,Montana,Blaine,$3.049
+MT,Montana,Broadwater,$3.029
+MT,Montana,Carbon,$2.969
+MT,Montana,Carter,
+MT,Montana,Cascade,$2.961
+MT,Montana,Chouteau,$3.004
+MT,Montana,Custer,$3.099
+MT,Montana,Daniels,$3.309
+MT,Montana,Dawson,$3.043
+MT,Montana,Deer Lodge,$2.997
+MT,Montana,Fallon,$3.429
+MT,Montana,Fergus,$3.127
+MT,Montana,Flathead,$2.993
+MT,Montana,Gallatin,$3.056
+MT,Montana,Garfield,$3.259
+MT,Montana,Glacier,$3.035
+MT,Montana,Golden Valley,$3.099
+MT,Montana,Granite,$2.999
+MT,Montana,Hill,$3.024
+MT,Montana,Jefferson,$3.022
+MT,Montana,Judith Basin,$3.429
+MT,Montana,Lake,$2.997
+MT,Montana,Lewis and Clark,$3.023
+MT,Montana,Liberty,$3.016
+MT,Montana,Lincoln,$3.038
+MT,Montana,Madison,$3.057
+MT,Montana,McCone,$3.149
+MT,Montana,Meagher,$3.049
+MT,Montana,Mineral,$3.097
+MT,Montana,Missoula,$3.006
+MT,Montana,Musselshell,$3.149
+MT,Montana,Park,$3.045
+MT,Montana,Petroleum,
+MT,Montana,Phillips,$3.099
+MT,Montana,Pondera,$2.922
+MT,Montana,Powder River,
+MT,Montana,Powell,$2.986
+MT,Montana,Prairie,$3.124
+MT,Montana,Ravalli,$3.013
+MT,Montana,Richland,$3.075
+MT,Montana,Roosevelt,$3.202
+MT,Montana,Rosebud,$3.191
+MT,Montana,Sanders,$3.019
+MT,Montana,Sheridan,$3.201
+MT,Montana,Silver Bow,$2.990
+MT,Montana,Stillwater,$3.006
+MT,Montana,Sweet Grass,$2.952
+MT,Montana,Teton,$2.957
+MT,Montana,Toole,$2.964
+MT,Montana,Treasure,$2.929
+MT,Montana,Valley,$3.164
+MT,Montana,Wheatland,$3.099
+MT,Montana,Wibaux,
+MT,Montana,Yellowstone,$2.942
+SC,South Carolina,Abbeville,$2.838
+SC,South Carolina,Aiken,$3.037
+SC,South Carolina,Allendale,$3.074
+SC,South Carolina,Anderson,$2.841
+SC,South Carolina,Bamberg,$3.199
+SC,South Carolina,Barnwell,$3.106
+SC,South Carolina,Beaufort,$3.039
+SC,South Carolina,Berkeley,$2.975
+SC,South Carolina,Calhoun,$3.112
+SC,South Carolina,Charleston,$3.016
+SC,South Carolina,Cherokee,$2.979
+SC,South Carolina,Chester,$3.057
+SC,South Carolina,Chesterfield,$3.016
+SC,South Carolina,Clarendon,$3.144
+SC,South Carolina,Colleton,$3.198
+SC,South Carolina,Darlington,$3.004
+SC,South Carolina,Dillon,$3.056
+SC,South Carolina,Dorchester,$3.015
+SC,South Carolina,Edgefield,$3.092
+SC,South Carolina,Fairfield,$3.116
+SC,South Carolina,Florence,$3.072
+SC,South Carolina,Georgetown,$3.079
+SC,South Carolina,Greenville,$2.899
+SC,South Carolina,Greenwood,$2.871
+SC,South Carolina,Hampton,$3.260
+SC,South Carolina,Horry,$2.979
+SC,South Carolina,Jasper,$3.128
+SC,South Carolina,Kershaw,$3.020
+SC,South Carolina,Lancaster,$3.049
+SC,South Carolina,Laurens,$2.980
+SC,South Carolina,Lee,$3.243
+SC,South Carolina,Lexington,$3.037
+SC,South Carolina,Marion,$3.063
+SC,South Carolina,Marlboro,$3.052
+SC,South Carolina,McCormick,$3.015
+SC,South Carolina,Newberry,$3.031
+SC,South Carolina,Oconee,$2.795
+SC,South Carolina,Orangeburg,$3.117
+SC,South Carolina,Pickens,$2.860
+SC,South Carolina,Richland,$3.035
+SC,South Carolina,Saluda,$2.959
+SC,South Carolina,Spartanburg,$2.946
+SC,South Carolina,Sumter,$3.093
+SC,South Carolina,Union,$2.955
+SC,South Carolina,Williamsburg,$3.182
+SC,South Carolina,York,$2.920
+KY,Kentucky,Adair,$2.995
+KY,Kentucky,Allen,$2.999
+KY,Kentucky,Anderson,$2.951
+KY,Kentucky,Ballard,$3.096
+KY,Kentucky,Barren,$2.986
+KY,Kentucky,Bath,$3.082
+KY,Kentucky,Bell,$2.908
+KY,Kentucky,Boone,$3.001
+KY,Kentucky,Bourbon,$2.809
+KY,Kentucky,Boyd,$3.071
+KY,Kentucky,Boyle,$2.944
+KY,Kentucky,Bracken,$2.889
+KY,Kentucky,Breathitt,$3.085
+KY,Kentucky,Breckinridge,$2.994
+KY,Kentucky,Bullitt,$3.056
+KY,Kentucky,Butler,$2.999
+KY,Kentucky,Caldwell,$2.962
+KY,Kentucky,Calloway,$2.925
+KY,Kentucky,Campbell,$3.183
+KY,Kentucky,Carlisle,$2.949
+KY,Kentucky,Carroll,$2.752
+KY,Kentucky,Carter,$2.967
+KY,Kentucky,Casey,$2.977
+KY,Kentucky,Christian,$2.900
+KY,Kentucky,Clark,$2.831
+KY,Kentucky,Clay,$2.972
+KY,Kentucky,Clinton,$3.124
+KY,Kentucky,Crittenden,$2.999
+KY,Kentucky,Cumberland,$3.059
+KY,Kentucky,Daviess,$2.935
+KY,Kentucky,Edmonson,$2.999
+KY,Kentucky,Elliott,$3.099
+KY,Kentucky,Estill,$3.099
+KY,Kentucky,Fayette,$2.882
+KY,Kentucky,Fleming,$2.963
+KY,Kentucky,Floyd,$2.948
+KY,Kentucky,Franklin,$2.947
+KY,Kentucky,Fulton,$3.004
+KY,Kentucky,Gallatin,$3.042
+KY,Kentucky,Garrard,$2.970
+KY,Kentucky,Grant,$3.133
+KY,Kentucky,Graves,$2.947
+KY,Kentucky,Grayson,$3.017
+KY,Kentucky,Green,$2.999
+KY,Kentucky,Greenup,$3.049
+KY,Kentucky,Hancock,$2.899
+KY,Kentucky,Hardin,$2.950
+KY,Kentucky,Harlan,$3.144
+KY,Kentucky,Harrison,$2.829
+KY,Kentucky,Hart,$2.988
+KY,Kentucky,Henderson,$2.907
+KY,Kentucky,Henry,$3.029
+KY,Kentucky,Hickman,$2.999
+KY,Kentucky,Hopkins,$2.981
+KY,Kentucky,Jackson,$2.942
+KY,Kentucky,Jefferson,$3.151
+KY,Kentucky,Jessamine,$2.905
+KY,Kentucky,Johnson,$3.005
+KY,Kentucky,Kenton,$3.149
+KY,Kentucky,Knott,$3.099
+KY,Kentucky,Knox,$2.954
+KY,Kentucky,Larue,$2.883
+KY,Kentucky,Laurel,$2.892
+KY,Kentucky,Lawrence,$2.951
+KY,Kentucky,Lee,$3.129
+KY,Kentucky,Leslie,$3.074
+KY,Kentucky,Letcher,$3.196
+KY,Kentucky,Lewis,$2.962
+KY,Kentucky,Lincoln,$2.985
+KY,Kentucky,Livingston,$2.999
+KY,Kentucky,Logan,$2.996
+KY,Kentucky,Lyon,$3.061
+KY,Kentucky,Madison,$2.861
+KY,Kentucky,Magoffin,$2.999
+KY,Kentucky,Marion,$2.999
+KY,Kentucky,Marshall,$2.954
+KY,Kentucky,Martin,$2.899
+KY,Kentucky,Mason,$2.778
+KY,Kentucky,McCracken,$2.972
+KY,Kentucky,McCreary,$2.916
+KY,Kentucky,McLean,$2.999
+KY,Kentucky,Meade,$2.978
+KY,Kentucky,Menifee,$2.989
+KY,Kentucky,Mercer,$2.974
+KY,Kentucky,Metcalfe,$2.959
+KY,Kentucky,Monroe,$2.986
+KY,Kentucky,Montgomery,$2.874
+KY,Kentucky,Morgan,$3.037
+KY,Kentucky,Muhlenberg,$2.988
+KY,Kentucky,Nelson,$2.974
+KY,Kentucky,Nicholas,$2.899
+KY,Kentucky,Ohio,$3.035
+KY,Kentucky,Oldham,$2.946
+KY,Kentucky,Owen,$2.999
+KY,Kentucky,Owsley,$3.099
+KY,Kentucky,Pendleton,$3.159
+KY,Kentucky,Perry,$3.106
+KY,Kentucky,Pike,$2.923
+KY,Kentucky,Powell,$2.981
+KY,Kentucky,Pulaski,$2.936
+KY,Kentucky,Robertson,$2.759
+KY,Kentucky,Rockcastle,$3.169
+KY,Kentucky,Rowan,$2.940
+KY,Kentucky,Russell,$3.007
+KY,Kentucky,Scott,$2.959
+KY,Kentucky,Shelby,$3.074
+KY,Kentucky,Simpson,$2.915
+KY,Kentucky,Spencer,$2.949
+KY,Kentucky,Taylor,$2.990
+KY,Kentucky,Todd,$2.979
+KY,Kentucky,Trigg,$3.041
+KY,Kentucky,Trimble,$3.099
+KY,Kentucky,Union,$3.006
+KY,Kentucky,Warren,$2.974
+KY,Kentucky,Washington,$3.001
+KY,Kentucky,Wayne,$3.049
+KY,Kentucky,Webster,$3.016
+KY,Kentucky,Whitley,$2.926
+KY,Kentucky,Wolfe,$3.074
+KY,Kentucky,Woodford,$2.935
+TN,Tennessee,Anderson,$2.972
+TN,Tennessee,Bedford,$2.852
+TN,Tennessee,Benton,$2.977
+TN,Tennessee,Bledsoe,$3.162
+TN,Tennessee,Blount,$3.019
+TN,Tennessee,Bradley,$2.960
+TN,Tennessee,Campbell,$2.974
+TN,Tennessee,Cannon,$2.899
+TN,Tennessee,Carroll,$3.121
+TN,Tennessee,Carter,$2.993
+TN,Tennessee,Cheatham,$2.922
+TN,Tennessee,Chester,$3.026
+TN,Tennessee,Claiborne,$2.889
+TN,Tennessee,Clay,$3.099
+TN,Tennessee,Cocke,$2.947
+TN,Tennessee,Coffee,$2.876
+TN,Tennessee,Crockett,$3.192
+TN,Tennessee,Cumberland,$2.900
+TN,Tennessee,Davidson,$2.955
+TN,Tennessee,Decatur,$2.999
+TN,Tennessee,DeKalb,$2.942
+TN,Tennessee,Dickson,$2.882
+TN,Tennessee,Dyer,$2.953
+TN,Tennessee,Fayette,$3.013
+TN,Tennessee,Fentress,$2.988
+TN,Tennessee,Franklin,$2.924
+TN,Tennessee,Gibson,$3.029
+TN,Tennessee,Giles,$2.994
+TN,Tennessee,Grainger,$3.098
+TN,Tennessee,Greene,$2.898
+TN,Tennessee,Grundy,$2.984
+TN,Tennessee,Hamblen,$3.060
+TN,Tennessee,Hamilton,$2.888
+TN,Tennessee,Hancock,$3.099
+TN,Tennessee,Hardeman,$3.034
+TN,Tennessee,Hardin,$2.885
+TN,Tennessee,Hawkins,$2.950
+TN,Tennessee,Haywood,$3.167
+TN,Tennessee,Henderson,$2.990
+TN,Tennessee,Henry,$2.880
+TN,Tennessee,Hickman,$2.954
+TN,Tennessee,Houston,$3.099
+TN,Tennessee,Humphreys,$2.910
+TN,Tennessee,Jackson,$3.039
+TN,Tennessee,Jefferson,$3.010
+TN,Tennessee,Johnson,$3.030
+TN,Tennessee,Knox,$3.011
+TN,Tennessee,Lake,$3.046
+TN,Tennessee,Lauderdale,$3.070
+TN,Tennessee,Lawrence,$2.964
+TN,Tennessee,Lewis,$2.996
+TN,Tennessee,Lincoln,$2.878
+TN,Tennessee,Loudon,$2.953
+TN,Tennessee,Macon,$2.943
+TN,Tennessee,Madison,$3.009
+TN,Tennessee,Marion,$2.938
+TN,Tennessee,Marshall,$2.948
+TN,Tennessee,Maury,$2.953
+TN,Tennessee,McMinn,$2.897
+TN,Tennessee,McNairy,$3.014
+TN,Tennessee,Meigs,$2.939
+TN,Tennessee,Monroe,$3.012
+TN,Tennessee,Montgomery,$2.884
+TN,Tennessee,Moore,$2.899
+TN,Tennessee,Morgan,$2.974
+TN,Tennessee,Obion,$3.003
+TN,Tennessee,Overton,$3.113
+TN,Tennessee,Perry,$2.986
+TN,Tennessee,Pickett,$3.199
+TN,Tennessee,Polk,$3.014
+TN,Tennessee,Putnam,$2.934
+TN,Tennessee,Rhea,$2.977
+TN,Tennessee,Roane,$2.896
+TN,Tennessee,Robertson,$2.936
+TN,Tennessee,Rutherford,$2.857
+TN,Tennessee,Scott,$2.931
+TN,Tennessee,Sequatchie,$2.782
+TN,Tennessee,Sevier,$2.994
+TN,Tennessee,Shelby,$3.031
+TN,Tennessee,Smith,$2.992
+TN,Tennessee,Stewart,$2.969
+TN,Tennessee,Sullivan,$3.003
+TN,Tennessee,Sumner,$2.931
+TN,Tennessee,Tipton,$2.994
+TN,Tennessee,Trousdale,$3.066
+TN,Tennessee,Unicoi,$2.986
+TN,Tennessee,Union,$2.955
+TN,Tennessee,Van Buren,$3.199
+TN,Tennessee,Warren,$3.042
+TN,Tennessee,Washington,$3.067
+TN,Tennessee,Wayne,$2.997
+TN,Tennessee,Weakley,$3.013
+TN,Tennessee,White,$2.974
+TN,Tennessee,Williamson,$3.195
+TN,Tennessee,Wilson,$2.874
+LA,Louisiana,Acadia,$3.002
+LA,Louisiana,Allen,$3.082
+LA,Louisiana,Ascension,$2.933
+LA,Louisiana,Assumption,$2.985
+LA,Louisiana,Avoyelles,$2.989
+LA,Louisiana,Beauregard,$2.986
+LA,Louisiana,Bienville,$3.040
+LA,Louisiana,Bossier,$2.925
+LA,Louisiana,Caddo,$2.949
+LA,Louisiana,Calcasieu,$2.980
+LA,Louisiana,Caldwell,$3.241
+LA,Louisiana,Cameron,$3.299
+LA,Louisiana,Catahoula,$3.016
+LA,Louisiana,Claiborne,$3.039
+LA,Louisiana,Concordia,$2.904
+LA,Louisiana,De Soto,$3.038
+LA,Louisiana,East Baton Rouge,$2.904
+LA,Louisiana,East Carroll,
+LA,Louisiana,East Feliciana,$3.038
+LA,Louisiana,Evangeline,$2.970
+LA,Louisiana,Franklin,$2.904
+LA,Louisiana,Grant,$3.028
+LA,Louisiana,Iberia,$2.943
+LA,Louisiana,Iberville,$2.996
+LA,Louisiana,Jackson,$2.897
+LA,Louisiana,Jefferson,$2.953
+LA,Louisiana,Jefferson Davis,$3.085
+LA,Louisiana,La Salle,$2.998
+LA,Louisiana,Lafayette,$2.936
+LA,Louisiana,Lafourche,$2.975
+LA,Louisiana,Lincoln,$2.884
+LA,Louisiana,Livingston,$2.913
+LA,Louisiana,Madison,$2.953
+LA,Louisiana,Morehouse,$2.845
+LA,Louisiana,Natchitoches,$2.978
+LA,Louisiana,Orleans,$2.967
+LA,Louisiana,Ouachita,$2.862
+LA,Louisiana,Plaquemines,$3.228
+LA,Louisiana,Pointe Coupee,$3.018
+LA,Louisiana,Rapides,$2.923
+LA,Louisiana,Red River,$3.047
+LA,Louisiana,Richland,$2.874
+LA,Louisiana,Sabine,$3.104
+LA,Louisiana,Saint Bernard,$2.943
+LA,Louisiana,Saint Charles,$2.966
+LA,Louisiana,Saint Helena,$2.944
+LA,Louisiana,Saint James,$3.030
+LA,Louisiana,St John the Baptist,$2.965
+LA,Louisiana,Saint Landry,$2.949
+LA,Louisiana,Saint Martin,$2.973
+LA,Louisiana,Saint Mary,$2.987
+LA,Louisiana,Saint Tammany,$2.939
+LA,Louisiana,Tangipahoa,$2.970
+LA,Louisiana,Tensas,$2.999
+LA,Louisiana,Terrebonne,$2.981
+LA,Louisiana,Union,$2.826
+LA,Louisiana,Vermilion,$3.045
+LA,Louisiana,Vernon,$3.024
+LA,Louisiana,Washington,$2.960
+LA,Louisiana,Webster,$2.962
+LA,Louisiana,West Baton Rouge,$2.969
+LA,Louisiana,West Carroll,$3.042
+LA,Louisiana,West Feliciana,$3.136
+LA,Louisiana,Winn,$3.066
+AR,Arkansas,Arkansas,$2.969
+AR,Arkansas,Ashley,$3.071
+AR,Arkansas,Baxter,$3.008
+AR,Arkansas,Benton,$2.935
+AR,Arkansas,Boone,$2.988
+AR,Arkansas,Bradley,$3.236
+AR,Arkansas,Calhoun,$3.099
+AR,Arkansas,Carroll,$2.933
+AR,Arkansas,Chicot,$3.021
+AR,Arkansas,Clark,$3.006
+AR,Arkansas,Clay,$2.974
+AR,Arkansas,Cleburne,$2.919
+AR,Arkansas,Cleveland,$2.999
+AR,Arkansas,Columbia,$3.034
+AR,Arkansas,Conway,$2.891
+AR,Arkansas,Craighead,$2.922
+AR,Arkansas,Crawford,$2.936
+AR,Arkansas,Crittenden,$2.940
+AR,Arkansas,Cross,$2.945
+AR,Arkansas,Dallas,$2.992
+AR,Arkansas,Desha,$3.259
+AR,Arkansas,Drew,$2.996
+AR,Arkansas,Faulkner,$2.869
+AR,Arkansas,Franklin,$2.914
+AR,Arkansas,Fulton,$2.999
+AR,Arkansas,Garland,$2.940
+AR,Arkansas,Grant,$2.962
+AR,Arkansas,Greene,$2.977
+AR,Arkansas,Hempstead,$3.014
+AR,Arkansas,Hot Spring,$2.990
+AR,Arkansas,Howard,$3.025
+AR,Arkansas,Independence,$2.983
+AR,Arkansas,Izard,$2.993
+AR,Arkansas,Jackson,$2.992
+AR,Arkansas,Jefferson,$2.967
+AR,Arkansas,Johnson,$2.885
+AR,Arkansas,Lafayette,$3.169
+AR,Arkansas,Lawrence,$2.995
+AR,Arkansas,Lee,$2.999
+AR,Arkansas,Lincoln,$3.051
+AR,Arkansas,Little River,$3.121
+AR,Arkansas,Logan,$2.957
+AR,Arkansas,Lonoke,$2.949
+AR,Arkansas,Madison,$3.023
+AR,Arkansas,Marion,$3.069
+AR,Arkansas,Miller,$3.034
+AR,Arkansas,Mississippi,$2.961
+AR,Arkansas,Monroe,$2.928
+AR,Arkansas,Montgomery,$3.266
+AR,Arkansas,Nevada,$3.001
+AR,Arkansas,Newton,$3.069
+AR,Arkansas,Ouachita,$2.975
+AR,Arkansas,Perry,$2.884
+AR,Arkansas,Phillips,$2.915
+AR,Arkansas,Pike,$3.112
+AR,Arkansas,Poinsett,$2.899
+AR,Arkansas,Polk,$3.087
+AR,Arkansas,Pope,$2.957
+AR,Arkansas,Prairie,$3.036
+AR,Arkansas,Pulaski,$2.921
+AR,Arkansas,Randolph,$2.937
+AR,Arkansas,Saline,$2.918
+AR,Arkansas,Scott,$2.952
+AR,Arkansas,Searcy,$3.016
+AR,Arkansas,Sebastian,$2.907
+AR,Arkansas,Sevier,$3.032
+AR,Arkansas,Sharp,$2.944
+AR,Arkansas,Saint Francis,$2.825
+AR,Arkansas,Stone,$3.067
+AR,Arkansas,Union,$3.084
+AR,Arkansas,Van Buren,$2.860
+AR,Arkansas,Washington,$3.001
+AR,Arkansas,White,$2.927
+AR,Arkansas,Woodruff,$2.974
+AR,Arkansas,Yell,$2.977
+OK,Oklahoma,Adair,$2.889
+OK,Oklahoma,Alfalfa,$2.893
+OK,Oklahoma,Atoka,$2.961
+OK,Oklahoma,Beaver,$3.191
+OK,Oklahoma,Beckham,$3.021
+OK,Oklahoma,Blaine,$3.026
+OK,Oklahoma,Bryan,$2.890
+OK,Oklahoma,Caddo,$3.038
+OK,Oklahoma,Canadian,$2.933
+OK,Oklahoma,Carter,$2.973
+OK,Oklahoma,Cherokee,$3.071
+OK,Oklahoma,Choctaw,$2.998
+OK,Oklahoma,Cimarron,$2.979
+OK,Oklahoma,Cleveland,$2.893
+OK,Oklahoma,Coal,$3.186
+OK,Oklahoma,Comanche,$2.797
+OK,Oklahoma,Cotton,$2.872
+OK,Oklahoma,Craig,$2.948
+OK,Oklahoma,Creek,$2.896
+OK,Oklahoma,Custer,$3.042
+OK,Oklahoma,Delaware,$2.929
+OK,Oklahoma,Dewey,$3.156
+OK,Oklahoma,Ellis,$3.274
+OK,Oklahoma,Garfield,$2.906
+OK,Oklahoma,Garvin,$2.957
+OK,Oklahoma,Grady,$3.075
+OK,Oklahoma,Grant,$2.866
+OK,Oklahoma,Greer,$3.082
+OK,Oklahoma,Harmon,$2.704
+OK,Oklahoma,Harper,$2.992
+OK,Oklahoma,Haskell,$3.029
+OK,Oklahoma,Hughes,$3.243
+OK,Oklahoma,Jackson,$2.849
+OK,Oklahoma,Jefferson,$3.039
+OK,Oklahoma,Johnston,$3.132
+OK,Oklahoma,Kay,$3.004
+OK,Oklahoma,Kingfisher,$3.050
+OK,Oklahoma,Kiowa,$2.902
+OK,Oklahoma,Latimer,$3.019
+OK,Oklahoma,Le Flore,$3.005
+OK,Oklahoma,Lincoln,$3.072
+OK,Oklahoma,Logan,$3.275
+OK,Oklahoma,Love,$3.063
+OK,Oklahoma,Major,$3.013
+OK,Oklahoma,Marshall,$3.021
+OK,Oklahoma,Mayes,$2.936
+OK,Oklahoma,McClain,$3.145
+OK,Oklahoma,McCurtain,$3.069
+OK,Oklahoma,McIntosh,$2.944
+OK,Oklahoma,Murray,$3.163
+OK,Oklahoma,Muskogee,$2.840
+OK,Oklahoma,Noble,$2.971
+OK,Oklahoma,Nowata,$3.011
+OK,Oklahoma,Okfuskee,$2.869
+OK,Oklahoma,Oklahoma,$2.913
+OK,Oklahoma,Okmulgee,$2.785
+OK,Oklahoma,Osage,$2.991
+OK,Oklahoma,Ottawa,$2.910
+OK,Oklahoma,Pawnee,$2.919
+OK,Oklahoma,Payne,$2.994
+OK,Oklahoma,Pittsburg,$3.012
+OK,Oklahoma,Pontotoc,$2.973
+OK,Oklahoma,Pottawatomie,$2.954
+OK,Oklahoma,Pushmataha,$3.039
+OK,Oklahoma,Roger Mills,$3.007
+OK,Oklahoma,Rogers,$2.827
+OK,Oklahoma,Seminole,$2.930
+OK,Oklahoma,Sequoyah,$2.897
+OK,Oklahoma,Stephens,$3.027
+OK,Oklahoma,Texas,$2.958
+OK,Oklahoma,Tillman,$2.862
+OK,Oklahoma,Tulsa,$2.811
+OK,Oklahoma,Wagoner,$2.831
+OK,Oklahoma,Washington,$2.837
+OK,Oklahoma,Washita,$3.066
+OK,Oklahoma,Woods,$3.197
+OK,Oklahoma,Woodward,$3.112
+MO,Missouri,Adair,$2.957
+MO,Missouri,Andrew,$2.895
+MO,Missouri,Atchison,$3.001
+MO,Missouri,Audrain,$2.984
+MO,Missouri,Barry,$2.915
+MO,Missouri,Barton,$2.912
+MO,Missouri,Bates,$2.943
+MO,Missouri,Benton,$2.990
+MO,Missouri,Bollinger,$3.035
+MO,Missouri,Boone,$2.977
+MO,Missouri,Buchanan,$2.916
+MO,Missouri,Butler,$2.974
+MO,Missouri,Caldwell,$2.966
+MO,Missouri,Callaway,$2.998
+MO,Missouri,Camden,$2.914
+MO,Missouri,Cape Girardeau,$3.021
+MO,Missouri,Carroll,$2.999
+MO,Missouri,Carter,$3.037
+MO,Missouri,Cass,$2.822
+MO,Missouri,Cedar,$2.959
+MO,Missouri,Chariton,$2.985
+MO,Missouri,Christian,$2.957
+MO,Missouri,Clark,$2.971
+MO,Missouri,Clay,$2.826
+MO,Missouri,Clinton,$2.887
+MO,Missouri,Cole,$3.035
+MO,Missouri,Cooper,$2.982
+MO,Missouri,Crawford,$2.881
+MO,Missouri,Dade,$2.974
+MO,Missouri,Dallas,$2.988
+MO,Missouri,Daviess,$2.855
+MO,Missouri,DeKalb,$2.949
+MO,Missouri,Dent,$3.011
+MO,Missouri,Douglas,$2.997
+MO,Missouri,Dunklin,$2.979
+MO,Missouri,Franklin,$2.956
+MO,Missouri,Gasconade,$3.098
+MO,Missouri,Gentry,$2.954
+MO,Missouri,Greene,$2.920
+MO,Missouri,Grundy,$2.949
+MO,Missouri,Harrison,$2.861
+MO,Missouri,Henry,$2.995
+MO,Missouri,Hickory,$2.962
+MO,Missouri,Holt,$2.907
+MO,Missouri,Howard,$2.997
+MO,Missouri,Howell,$2.970
+MO,Missouri,Iron,$3.079
+MO,Missouri,Jackson,$2.817
+MO,Missouri,Jasper,$2.877
+MO,Missouri,Jefferson,$2.954
+MO,Missouri,Johnson,$2.991
+MO,Missouri,Knox,$2.999
+MO,Missouri,Laclede,$2.945
+MO,Missouri,Lafayette,$2.875
+MO,Missouri,Lawrence,$2.946
+MO,Missouri,Lewis,$2.891
+MO,Missouri,Lincoln,$3.061
+MO,Missouri,Linn,$2.985
+MO,Missouri,Livingston,$2.982
+MO,Missouri,Macon,$2.943
+MO,Missouri,Madison,$2.899
+MO,Missouri,Maries,$3.099
+MO,Missouri,Marion,$2.901
+MO,Missouri,McDonald,$2.962
+MO,Missouri,Mercer,$2.949
+MO,Missouri,Miller,$3.019
+MO,Missouri,Mississippi,$2.985
+MO,Missouri,Moniteau,$2.963
+MO,Missouri,Monroe,$2.974
+MO,Missouri,Montgomery,$2.940
+MO,Missouri,Morgan,$2.979
+MO,Missouri,New Madrid,$2.962
+MO,Missouri,Newton,$2.865
+MO,Missouri,Nodaway,$2.939
+MO,Missouri,Oregon,$2.999
+MO,Missouri,Osage,$2.985
+MO,Missouri,Ozark,$2.979
+MO,Missouri,Pemiscot,$2.963
+MO,Missouri,Perry,$3.020
+MO,Missouri,Pettis,$2.993
+MO,Missouri,Phelps,$2.953
+MO,Missouri,Pike,$2.999
+MO,Missouri,Platte,$2.840
+MO,Missouri,Polk,$2.901
+MO,Missouri,Pulaski,$2.973
+MO,Missouri,Putnam,$2.999
+MO,Missouri,Ralls,$2.996
+MO,Missouri,Randolph,$3.038
+MO,Missouri,Ray,$2.899
+MO,Missouri,Reynolds,$2.999
+MO,Missouri,Ripley,$2.912
+MO,Missouri,Saline,$3.014
+MO,Missouri,Schuyler,$2.895
+MO,Missouri,Scotland,$2.899
+MO,Missouri,Scott,$3.030
+MO,Missouri,Shannon,$3.016
+MO,Missouri,Shelby,$2.987
+MO,Missouri,Saint Charles,$2.934
+MO,Missouri,Saint Clair,$2.863
+MO,Missouri,Saint Francois,$3.061
+MO,Missouri,Saint Louis,$2.936
+MO,Missouri,Saint Louis City,$2.987
+MO,Missouri,Sainte Genevieve,$3.031
+MO,Missouri,Stoddard,$3.037
+MO,Missouri,Stone,$2.920
+MO,Missouri,Sullivan,$2.999
+MO,Missouri,Taney,$2.954
+MO,Missouri,Texas,$2.888
+MO,Missouri,Vernon,$2.909
+MO,Missouri,Warren,$2.937
+MO,Missouri,Washington,$3.002
+MO,Missouri,Wayne,$3.149
+MO,Missouri,Webster,$2.925
+MO,Missouri,Worth,$2.949
+MO,Missouri,Wright,$2.950
+TX,Texas,Anderson,$2.887
+TX,Texas,Andrews,$2.995
+TX,Texas,Angelina,$2.957
+TX,Texas,Aransas,$2.895
+TX,Texas,Archer,$3.016
+TX,Texas,Armstrong,$2.829
+TX,Texas,Atascosa,$2.921
+TX,Texas,Austin,$2.863
+TX,Texas,Bailey,$2.745
+TX,Texas,Bandera,$3.032
+TX,Texas,Bastrop,$2.971
+TX,Texas,Baylor,$3.124
+TX,Texas,Bee,$2.965
+TX,Texas,Bell,$2.935
+TX,Texas,Bexar,$2.940
+TX,Texas,Blanco,$2.961
+TX,Texas,Borden,
+TX,Texas,Bosque,$2.918
+TX,Texas,Bowie,$3.003
+TX,Texas,Brazoria,$2.868
+TX,Texas,Brazos,$2.940
+TX,Texas,Brewster,$3.343
+TX,Texas,Briscoe,$2.999
+TX,Texas,Brooks,$2.899
+TX,Texas,Brown,$2.947
+TX,Texas,Burleson,$2.921
+TX,Texas,Burnet,$2.970
+TX,Texas,Caldwell,$2.881
+TX,Texas,Calhoun,$2.934
+TX,Texas,Callahan,$2.981
+TX,Texas,Cameron,$2.895
+TX,Texas,Camp,$2.983
+TX,Texas,Carson,$2.926
+TX,Texas,Cass,$2.969
+TX,Texas,Castro,$2.914
+TX,Texas,Chambers,$2.894
+TX,Texas,Cherokee,$2.886
+TX,Texas,Childress,$2.982
+TX,Texas,Clay,$3.006
+TX,Texas,Cochran,$2.969
+TX,Texas,Coke,$2.929
+TX,Texas,Coleman,$3.072
+TX,Texas,Collin,$2.957
+TX,Texas,Collingsworth,$3.037
+TX,Texas,Colorado,$2.919
+TX,Texas,Comal,$2.966
+TX,Texas,Comanche,$2.973
+TX,Texas,Concho,$3.174
+TX,Texas,Cooke,$3.030
+TX,Texas,Coryell,$2.904
+TX,Texas,Cottle,$3.099
+TX,Texas,Crane,$3.174
+TX,Texas,Crockett,$3.081
+TX,Texas,Crosby,$3.053
+TX,Texas,Culberson,$3.539
+TX,Texas,Dallam,$2.962
+TX,Texas,Dallas,$2.983
+TX,Texas,Dawson,$3.151
+TX,Texas,Deaf Smith,$2.797
+TX,Texas,Delta,$3.049
+TX,Texas,Denton,$2.959
+TX,Texas,De Witt,$2.952
+TX,Texas,Dickens,$3.199
+TX,Texas,Dimmit,$2.966
+TX,Texas,Donley,$2.829
+TX,Texas,Duval,$2.896
+TX,Texas,Eastland,$2.915
+TX,Texas,Ector,$3.042
+TX,Texas,Edwards,$3.099
+TX,Texas,El Paso,$3.188
+TX,Texas,Ellis,$2.992
+TX,Texas,Erath,$2.953
+TX,Texas,Falls,$2.957
+TX,Texas,Fannin,$2.873
+TX,Texas,Fayette,$3.004
+TX,Texas,Fisher,$2.969
+TX,Texas,Floyd,$2.989
+TX,Texas,Foard,$2.999
+TX,Texas,Fort Bend,$2.820
+TX,Texas,Franklin,$2.954
+TX,Texas,Freestone,$2.963
+TX,Texas,Frio,$2.940
+TX,Texas,Gaines,$2.953
+TX,Texas,Galveston,$2.878
+TX,Texas,Garza,$2.899
+TX,Texas,Gillespie,$2.980
+TX,Texas,Glasscock,$3.099
+TX,Texas,Goliad,$2.894
+TX,Texas,Gonzales,$2.857
+TX,Texas,Gray,$2.847
+TX,Texas,Grayson,$2.954
+TX,Texas,Gregg,$2.966
+TX,Texas,Grimes,$2.945
+TX,Texas,Guadalupe,$2.932
+TX,Texas,Hale,$2.785
+TX,Texas,Hall,$2.929
+TX,Texas,Hamilton,$2.937
+TX,Texas,Hansford,$2.915
+TX,Texas,Hardeman,$2.919
+TX,Texas,Hardin,$2.857
+TX,Texas,Harris,$2.857
+TX,Texas,Harrison,$3.102
+TX,Texas,Hartley,
+TX,Texas,Haskell,$2.819
+TX,Texas,Hays,$2.941
+TX,Texas,Hemphill,$2.989
+TX,Texas,Henderson,$2.952
+TX,Texas,Hidalgo,$2.893
+TX,Texas,Hill,$2.938
+TX,Texas,Hockley,$2.911
+TX,Texas,Hood,$3.015
+TX,Texas,Hopkins,$3.046
+TX,Texas,Houston,$2.990
+TX,Texas,Howard,$2.860
+TX,Texas,Hudspeth,$3.232
+TX,Texas,Hunt,$2.978
+TX,Texas,Hutchinson,$2.825
+TX,Texas,Irion,$2.939
+TX,Texas,Jack,$3.049
+TX,Texas,Jackson,$3.070
+TX,Texas,Jasper,$2.933
+TX,Texas,Jeff Davis,$3.379
+TX,Texas,Jefferson,$2.832
+TX,Texas,Jim Hogg,$2.999
+TX,Texas,Jim Wells,$2.903
+TX,Texas,Johnson,$2.954
+TX,Texas,Jones,$2.951
+TX,Texas,Karnes,$2.962
+TX,Texas,Kaufman,$2.999
+TX,Texas,Kendall,$3.013
+TX,Texas,Kenedy,
+TX,Texas,Kent,
+TX,Texas,Kerr,$2.989
+TX,Texas,Kimble,$3.059
+TX,Texas,King,
+TX,Texas,Kinney,$2.879
+TX,Texas,Kleberg,$2.957
+TX,Texas,Knox,$3.099
+TX,Texas,La Salle,$2.941
+TX,Texas,Lamar,$2.987
+TX,Texas,Lamb,$2.943
+TX,Texas,Lampasas,$2.938
+TX,Texas,Lavaca,$3.000
+TX,Texas,Lee,$2.978
+TX,Texas,Leon,$2.999
+TX,Texas,Liberty,$2.854
+TX,Texas,Limestone,$2.956
+TX,Texas,Lipscomb,$2.999
+TX,Texas,Live Oak,$2.935
+TX,Texas,Llano,$2.934
+TX,Texas,Loving,$3.079
+TX,Texas,Lubbock,$2.843
+TX,Texas,Lynn,$3.166
+TX,Texas,Madison,$2.931
+TX,Texas,Marion,$2.899
+TX,Texas,Martin,$3.169
+TX,Texas,Mason,$3.141
+TX,Texas,Matagorda,$2.887
+TX,Texas,Maverick,$3.016
+TX,Texas,McCulloch,$3.169
+TX,Texas,McLennan,$2.917
+TX,Texas,McMullen,$2.979
+TX,Texas,Medina,$2.996
+TX,Texas,Menard,$3.074
+TX,Texas,Midland,$2.971
+TX,Texas,Milam,$2.904
+TX,Texas,Mills,$3.039
+TX,Texas,Mitchell,$2.938
+TX,Texas,Montague,$2.971
+TX,Texas,Montgomery,$2.843
+TX,Texas,Moore,$2.885
+TX,Texas,Morris,$3.014
+TX,Texas,Motley,$3.099
+TX,Texas,Nacogdoches,$2.944
+TX,Texas,Navarro,$2.961
+TX,Texas,Newton,$2.899
+TX,Texas,Nolan,$2.895
+TX,Texas,Nueces,$2.902
+TX,Texas,Ochiltree,$2.909
+TX,Texas,Oldham,$3.175
+TX,Texas,Orange,$2.869
+TX,Texas,Palo Pinto,$2.937
+TX,Texas,Panola,$2.991
+TX,Texas,Parker,$2.997
+TX,Texas,Parmer,$2.973
+TX,Texas,Pecos,$3.078
+TX,Texas,Polk,$2.909
+TX,Texas,Potter,$2.894
+TX,Texas,Presidio,$3.284
+TX,Texas,Rains,$2.966
+TX,Texas,Randall,$2.886
+TX,Texas,Reagan,$3.459
+TX,Texas,Real,$2.969
+TX,Texas,Red River,$3.101
+TX,Texas,Reeves,$3.169
+TX,Texas,Refugio,$2.973
+TX,Texas,Roberts,
+TX,Texas,Robertson,$2.911
+TX,Texas,Rockwall,$2.992
+TX,Texas,Runnels,$2.946
+TX,Texas,Rusk,$2.957
+TX,Texas,Sabine,$2.919
+TX,Texas,San Augustine,$3.047
+TX,Texas,San Jacinto,$2.922
+TX,Texas,San Patricio,$2.938
+TX,Texas,San Saba,$2.999
+TX,Texas,Schleicher,$2.999
+TX,Texas,Scurry,$2.974
+TX,Texas,Shackelford,$2.979
+TX,Texas,Shelby,$2.961
+TX,Texas,Sherman,$3.052
+TX,Texas,Smith,$2.908
+TX,Texas,Somervell,$2.939
+TX,Texas,Starr,$2.908
+TX,Texas,Stephens,$2.963
+TX,Texas,Sterling,$3.269
+TX,Texas,Stonewall,$3.099
+TX,Texas,Sutton,$2.985
+TX,Texas,Swisher,$2.932
+TX,Texas,Tarrant,$2.967
+TX,Texas,Taylor,$2.849
+TX,Texas,Terrell,$3.459
+TX,Texas,Terry,$2.769
+TX,Texas,Throckmorton,$3.099
+TX,Texas,Titus,$3.058
+TX,Texas,Tom Green,$2.847
+TX,Texas,Travis,$2.959
+TX,Texas,Trinity,$2.968
+TX,Texas,Tyler,$2.856
+TX,Texas,Upshur,$2.964
+TX,Texas,Upton,$3.378
+TX,Texas,Uvalde,$2.992
+TX,Texas,Val Verde,$2.945
+TX,Texas,Van Zandt,$3.009
+TX,Texas,Victoria,$2.891
+TX,Texas,Walker,$2.918
+TX,Texas,Waller,$2.938
+TX,Texas,Ward,$3.006
+TX,Texas,Washington,$2.985
+TX,Texas,Webb,$2.928
+TX,Texas,Wharton,$2.929
+TX,Texas,Wheeler,$2.859
+TX,Texas,Wichita,$2.887
+TX,Texas,Wilbarger,$2.860
+TX,Texas,Willacy,$2.864
+TX,Texas,Williamson,$2.953
+TX,Texas,Wilson,$2.939
+TX,Texas,Winkler,$3.102
+TX,Texas,Wise,$2.956
+TX,Texas,Wood,$2.994
+TX,Texas,Yoakum,$3.143
+TX,Texas,Young,$2.977
+TX,Texas,Zapata,$2.963
+TX,Texas,Zavala,$2.999
+KS,Kansas,Allen,$2.899
+KS,Kansas,Anderson,$2.879
+KS,Kansas,Atchison,$2.927
+KS,Kansas,Barber,$2.999
+KS,Kansas,Barton,$2.912
+KS,Kansas,Bourbon,$2.907
+KS,Kansas,Brown,$2.929
+KS,Kansas,Butler,$2.939
+KS,Kansas,Chase,$2.949
+KS,Kansas,Chautauqua,$3.109
+KS,Kansas,Cherokee,$2.910
+KS,Kansas,Cheyenne,
+KS,Kansas,Clark,$3.019
+KS,Kansas,Clay,$2.869
+KS,Kansas,Cloud,$2.881
+KS,Kansas,Coffey,$2.946
+KS,Kansas,Comanche,$3.012
+KS,Kansas,Cowley,$2.931
+KS,Kansas,Crawford,$2.862
+KS,Kansas,Decatur,$3.029
+KS,Kansas,Dickinson,$2.852
+KS,Kansas,Doniphan,$2.879
+KS,Kansas,Douglas,$2.877
+KS,Kansas,Edwards,$2.936
+KS,Kansas,Elk,$2.999
+KS,Kansas,Ellis,$2.887
+KS,Kansas,Ellsworth,$3.006
+KS,Kansas,Finney,$2.939
+KS,Kansas,Ford,$2.900
+KS,Kansas,Franklin,$2.905
+KS,Kansas,Geary,$2.951
+KS,Kansas,Gove,$3.049
+KS,Kansas,Graham,$2.899
+KS,Kansas,Grant,$2.951
+KS,Kansas,Gray,$3.049
+KS,Kansas,Greeley,$3.149
+KS,Kansas,Greenwood,$2.907
+KS,Kansas,Hamilton,$3.059
+KS,Kansas,Harper,$2.906
+KS,Kansas,Harvey,$2.863
+KS,Kansas,Haskell,$3.022
+KS,Kansas,Hodgeman,$2.949
+KS,Kansas,Jackson,$2.854
+KS,Kansas,Jefferson,$2.912
+KS,Kansas,Jewell,$3.049
+KS,Kansas,Johnson,$2.850
+KS,Kansas,Kearny,$2.869
+KS,Kansas,Kingman,$2.932
+KS,Kansas,Kiowa,$2.999
+KS,Kansas,Labette,$2.885
+KS,Kansas,Lane,$2.929
+KS,Kansas,Leavenworth,$2.857
+KS,Kansas,Lincoln,$2.799
+KS,Kansas,Linn,$2.929
+KS,Kansas,Logan,$2.974
+KS,Kansas,Lyon,$2.933
+KS,Kansas,Marion,$2.924
+KS,Kansas,Marshall,$2.929
+KS,Kansas,Mcpherson,$2.893
+KS,Kansas,Meade,$2.899
+KS,Kansas,Miami,$2.869
+KS,Kansas,Mitchell,$2.874
+KS,Kansas,Montgomery,$2.930
+KS,Kansas,Morris,$2.959
+KS,Kansas,Morton,$3.229
+KS,Kansas,Nemaha,$2.939
+KS,Kansas,Neosho,$2.906
+KS,Kansas,Ness,$2.966
+KS,Kansas,Norton,$2.879
+KS,Kansas,Osage,$2.957
+KS,Kansas,Osborne,$2.852
+KS,Kansas,Ottawa,$2.859
+KS,Kansas,Pawnee,$2.899
+KS,Kansas,Phillips,$2.942
+KS,Kansas,Pottawatomie,$2.889
+KS,Kansas,Pratt,$2.999
+KS,Kansas,Rawlins,$3.039
+KS,Kansas,Reno,$2.786
+KS,Kansas,Republic,$2.904
+KS,Kansas,Rice,$2.904
+KS,Kansas,Riley,$2.958
+KS,Kansas,Rooks,$2.982
+KS,Kansas,Rush,$2.999
+KS,Kansas,Russell,$2.981
+KS,Kansas,Saline,$2.842
+KS,Kansas,Scott,$2.965
+KS,Kansas,Sedgwick,$2.977
+KS,Kansas,Seward,$3.028
+KS,Kansas,Shawnee,$2.913
+KS,Kansas,Sheridan,$3.099
+KS,Kansas,Sherman,$2.939
+KS,Kansas,Smith,$3.086
+KS,Kansas,Stafford,$2.974
+KS,Kansas,Stanton,
+KS,Kansas,Stevens,$2.999
+KS,Kansas,Sumner,$2.881
+KS,Kansas,Thomas,$2.980
+KS,Kansas,Trego,$2.867
+KS,Kansas,Wabaunsee,$2.896
+KS,Kansas,Wallace,$3.224
+KS,Kansas,Washington,$2.962
+KS,Kansas,Wichita,$3.019
+KS,Kansas,Wilson,$2.892
+KS,Kansas,Woodson,$2.924
+KS,Kansas,Wyandotte,$2.873
+MS,Mississippi,Adams,$3.002
+MS,Mississippi,Alcorn,$2.959
+MS,Mississippi,Amite,$2.992
+MS,Mississippi,Attala,$2.997
+MS,Mississippi,Benton,$2.913
+MS,Mississippi,Bolivar,$2.881
+MS,Mississippi,Calhoun,$2.959
+MS,Mississippi,Carroll,$2.959
+MS,Mississippi,Chickasaw,$2.912
+MS,Mississippi,Choctaw,$2.869
+MS,Mississippi,Claiborne,$3.532
+MS,Mississippi,Clarke,$2.951
+MS,Mississippi,Clay,$2.836
+MS,Mississippi,Coahoma,$2.880
+MS,Mississippi,Copiah,$2.965
+MS,Mississippi,Covington,$2.856
+MS,Mississippi,De Soto,$2.922
+MS,Mississippi,Forrest,$2.883
+MS,Mississippi,Franklin,$2.969
+MS,Mississippi,George,$3.030
+MS,Mississippi,Greene,$2.932
+MS,Mississippi,Grenada,$2.741
+MS,Mississippi,Hancock,$2.779
+MS,Mississippi,Harrison,$2.862
+MS,Mississippi,Hinds,$2.896
+MS,Mississippi,Holmes,$2.879
+MS,Mississippi,Humphreys,$2.835
+MS,Mississippi,Issaquena,
+MS,Mississippi,Itawamba,$2.810
+MS,Mississippi,Jackson,$2.890
+MS,Mississippi,Jasper,$2.884
+MS,Mississippi,Jefferson,$2.999
+MS,Mississippi,Jefferson Davis,$2.894
+MS,Mississippi,Jones,$2.799
+MS,Mississippi,Kemper,$2.992
+MS,Mississippi,Lafayette,$3.026
+MS,Mississippi,Lamar,$2.903
+MS,Mississippi,Lauderdale,$2.898
+MS,Mississippi,Lawrence,$2.999
+MS,Mississippi,Leake,$2.819
+MS,Mississippi,Lee,$2.828
+MS,Mississippi,Leflore,$2.788
+MS,Mississippi,Lincoln,$3.011
+MS,Mississippi,Lowndes,$2.840
+MS,Mississippi,Madison,$2.928
+MS,Mississippi,Marion,$2.898
+MS,Mississippi,Marshall,$3.023
+MS,Mississippi,Monroe,$2.833
+MS,Mississippi,Montgomery,$2.997
+MS,Mississippi,Neshoba,$2.821
+MS,Mississippi,Newton,$2.845
+MS,Mississippi,Noxubee,$2.945
+MS,Mississippi,Oktibbeha,$2.855
+MS,Mississippi,Panola,$2.899
+MS,Mississippi,Pearl River,$2.789
+MS,Mississippi,Perry,$3.119
+MS,Mississippi,Pike,$2.907
+MS,Mississippi,Pontotoc,$2.894
+MS,Mississippi,Prentiss,$2.901
+MS,Mississippi,Quitman,$2.999
+MS,Mississippi,Rankin,$2.854
+MS,Mississippi,Scott,$2.868
+MS,Mississippi,Sharkey,$3.019
+MS,Mississippi,Simpson,$2.787
+MS,Mississippi,Smith,$2.944
+MS,Mississippi,Stone,$2.868
+MS,Mississippi,Sunflower,$2.912
+MS,Mississippi,Tallahatchie,$2.886
+MS,Mississippi,Tate,$2.942
+MS,Mississippi,Tippah,$2.928
+MS,Mississippi,Tishomingo,$2.939
+MS,Mississippi,Tunica,$3.097
+MS,Mississippi,Union,$2.937
+MS,Mississippi,Walthall,$2.932
+MS,Mississippi,Warren,$2.930
+MS,Mississippi,Washington,$2.946
+MS,Mississippi,Wayne,$2.856
+MS,Mississippi,Webster,$3.011
+MS,Mississippi,Wilkinson,$2.989
+MS,Mississippi,Winston,$2.861
+MS,Mississippi,Yalobusha,$2.961
+MS,Mississippi,Yazoo,$2.889
