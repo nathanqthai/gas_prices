@@ -2,5 +2,7 @@
 
 [![scraper](https://github.com/nathanqthai/gas_prices/actions/workflows/scraper.yml/badge.svg?branch=main)](https://github.com/nathanqthai/gas_prices/actions/workflows/scraper.yml)
 
-# Header
+# Info
+No data from 20250616-20250621, scraper failed and was later repaired.
+
 
