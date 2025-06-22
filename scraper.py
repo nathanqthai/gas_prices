@@ -8,106 +8,150 @@ import logging
 import re
 import time
 import datetime
+import os
+from typing import List, Dict, Any
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 import requests
 
 logging.basicConfig(level=logging.INFO)
-log = logging.getLogger()
+log = logging.getLogger(__name__)
 
 
-def parse_args():
-    parser = argparse.ArgumentParser(description="Default")
-    parser.add_argument("--debug", help="debug", action="store_true")
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Scrape national and state gas prices."
+    )
+    parser.add_argument(
+        "--debug",
+        help="Enable debug logging",
+        action="store_true",
+    )
+    parser.add_argument(
+        "-f",
+        "--filepath",
+        help="Base filepath to store data",
+        default="prices/",
+    )
+
     return parser.parse_args()
 
 
-def get_national_prices(soup):
+def get_national_prices(soup: BeautifulSoup) -> List[List[str]]:
     """
-    all the national data is stored in the iwmparam[0].placestxt variable in the last script
+    Extract national gas price data from the final <script> tag.
 
-    returns a list where each element is another list that describes a state's gas prices:
-    [<USPS Abbreviation>, <State Name>, <Gas Price>, <Link to State Page>]
+    Returns:
+        List of lists, each with [State Abbr, State Name, Gas Price, State Page URL].
     """
-    national_prices = []
-    script = soup.find_all("script")[-1]
-    for line in script:
-        if "iwmparam[0].placestxt" in line:
-            data = re.search(r"iwmparam\[0\].placestxt\s=\s\"(.*)\"", line)
-            national_prices = [
-                state.strip().split(",")[0:-1]
-                for state in data.group(1).strip().split(";")[0:-1]
-            ]
-    return national_prices
+    script_tags: List[Tag] = soup.find_all("script")
+    for script in reversed(script_tags):
+        for line in script:
+            if "iwmparam[0].placestxt" in line:
+                match = re.search(r'iwmparam\[0\].placestxt\s*=\s*"(.*)"', line)
+                if match:
+                    raw_data: List[str] = match.group(1).strip().split(";")[:-1]
+                    return [entry.strip().split(",")[:-1] for entry in raw_data]
+
+    return []
 
 
-def get_state_prices(national_prices):
-    all_prices = []
-    with requests.Session() as s:
-        s.headers = {
-            "User-Agent": "insomnia/2022.4.2",
-        }
-        for state in national_prices:
-            if state[0] == "DC":
+def get_state_prices(national_prices: List[List[str]]) -> List[List[str]]:
+    """
+    Retrieve county-level gas prices for each state.
+
+    Args:
+        national_prices: List of state-level data.
+
+    Returns:
+        List of county-level gas price records: [State Abbr, State Name, County Name, Comment].
+    """
+    all_prices: List[List[str]] = []
+
+    with requests.Session() as session:
+        session.headers = {"User-Agent": "insomnia/2022.4.2"}
+
+        for state_data in national_prices:
+            if len(state_data) < 4:
                 continue
-            # scrape state url to get the data url
-            resp = s.get(state[3])
-            soup = BeautifulSoup(resp.text, "html.parser")
-            state_data_url = soup.find(
-                "script", src=re.compile(r"premiumhtml5map_js_data")
-            )["src"]
 
-            # scrape the data out of the javascript
-            map_data = {}
-            resp = s.get(state_data_url)
+            state_abbr, state_name, *_, state_url = state_data
+
+            if state_abbr == "DC":
+                continue
+
+            resp = session.get(state_url)
+            soup = BeautifulSoup(resp.text, "html.parser")
+
+            script_tag = soup.find("script", src=re.compile(r"premiumhtml5map_js_data"))
+            if not script_tag:
+                log.warning(f"No map script found for {state_name}")
+                continue
+
+            data_url: str = script_tag["src"]
+            resp = session.get(data_url)
+
+            map_data: Dict[str, Dict[str, Any]] = {}
             for line in resp.text.strip().split("\n"):
                 if "map_data" in line:
-                    map_data = json.loads(
-                        re.search(r"map_data\s*:\s*({.*),\s*groups", line.strip())
-                        .group(1)
-                        .strip()
-                    )
+                    match = re.search(r"map_data\s*:\s*({.*?),\s*groups", line)
+                    if match:
+                        map_data = json.loads(match.group(1).strip())
+                        break
 
-            # clean data
-            for key, county in map_data.items():
+            for county in map_data.values():
                 all_prices.append(
-                    [state[0], state[1], county["name"], county["comment"]]
+                    [
+                        state_abbr,
+                        state_name,
+                        county.get("name", ""),
+                        county.get("comment", ""),
+                    ]
                 )
+
     return all_prices
 
 
-def main():
+def save_prices_to_csv(filename: str, data: List[List[str]]) -> None:
+    with open(filename, "w", newline="") as file:
+        writer = csv.writer(file)
+        writer.writerows(data)
+
+
+def main() -> None:
     args = parse_args()
 
-    log.info("Running {}".format(__file__))
     if args.debug:
         log.setLevel(logging.DEBUG)
         log.debug("Debug mode enabled")
 
-    # profiling
-    s = time.perf_counter()
+    log.info(f"Running {__file__}")
 
-    base_page = "https://gasprices.aaa.com"
-    headers = {
-        "User-Agent": "insomnia/2022.4.2",
-    }
-    req = requests.get(base_page, headers=headers)
-    soup = BeautifulSoup(req.text, "html.parser")
-    national_prices = get_national_prices(soup)
-    state_prices = get_state_prices(national_prices)
-    date = str(datetime.datetime.now(datetime.timezone.utc))
-    with open(f"prices/national/{date}.csv", "w") as fd:
-        writer = csv.writer(fd)
-        writer.writerows(national_prices)
+    start_time: float = time.perf_counter()
 
-    with open(f"prices/states/{date}.csv", "w") as fd:
-        writer = csv.writer(fd)
-        writer.writerows(state_prices)
+    base_url: str = "https://gasprices.aaa.com"
+    headers: Dict[str, str] = {"User-Agent": "insomnia/2022.4.2"}
 
-    elapsed = time.perf_counter() - s
-    log.info(f"{__file__} executed in {elapsed:0.5f} seconds.")
-    elapsed = time.perf_counter() - s
-    log.info(f"{__file__} executed in {elapsed:0.5f} seconds.")
+    response = requests.get(base_url, headers=headers)
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    national_prices: List[List[str]] = get_national_prices(soup)
+    state_prices: List[List[str]] = get_state_prices(national_prices)
+
+    base_path: str = args.filepath
+    national_path: str = base_path + "/national/"
+    state_path: str = base_path + "/states/"
+
+    print(os.path.dirname(national_path))
+    os.makedirs(os.path.dirname(national_path), exist_ok=True)
+    os.makedirs(os.path.dirname(state_path), exist_ok=True)
+
+    timestamp: str = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    save_prices_to_csv(f"{national_path}/{timestamp}.csv", national_prices)
+    save_prices_to_csv(f"{state_path}/{timestamp}.csv", state_prices)
+
+    elapsed: float = time.perf_counter() - start_time
+    log.info(f"{__file__} executed in {elapsed:.5f} seconds.")
 
 
 if __name__ == "__main__":
