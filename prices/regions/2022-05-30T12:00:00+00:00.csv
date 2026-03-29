@@ -1,0 +1,29 @@
+BOS,Boston,metro,$4.882,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_ybos_w.htm
+CHI,Chicago,metro,$5.392,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_yord_w.htm
+CLE,Cleveland,metro,$4.542,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_ycle_w.htm
+DEN,Denver,metro,$4.310,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_yden_w.htm
+HOU,Houston,metro,$4.303,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_y44ho_w.htm
+LA,Los Angeles,metro,$6.039,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_y05la_w.htm
+MIA,Miami,metro,$4.671,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_ymia_w.htm
+NYC,New York City,metro,$4.928,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_y35ny_w.htm
+SEA,Seattle,metro,$5.335,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_y48se_w.htm
+SF,San Francisco,metro,$6.279,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_y05sf_w.htm
+US,U.S. Average,national,$4.727,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_nus_w.htm
+PADD1,East Coast,region,$4.636,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_r10_w.htm
+PADD1A,New England,region,$4.801,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_r1x_w.htm
+PADD1B,Central Atlantic,region,$4.862,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_r1y_w.htm
+PADD1C,Lower Atlantic,region,$4.448,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_r1z_w.htm
+PADD2,Midwest,region,$4.523,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_r20_w.htm
+PADD3,Gulf Coast,region,$4.292,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_r30_w.htm
+PADD4,Rocky Mountain,region,$4.555,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_r40_w.htm
+PADD5,West Coast,region,$5.673,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_r50_w.htm
+PADD5X,West Coast ex-CA,region,$5.159,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_r5xca_w.htm
+CA,California,state,$6.087,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_sca_w.htm
+CO,Colorado,state,$4.331,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_sco_w.htm
+FL,Florida,state,$4.623,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_sfl_w.htm
+MA,Massachusetts,state,$4.829,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_sma_w.htm
+MN,Minnesota,state,$4.265,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_smn_w.htm
+NY,New York,state,$4.943,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_sny_w.htm
+OH,Ohio,state,$4.451,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_soh_w.htm
+TX,Texas,state,$4.286,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_stx_w.htm
+WA,Washington,state,$5.156,https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_swa_w.htm

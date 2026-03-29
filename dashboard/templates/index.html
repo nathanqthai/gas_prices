@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gas Prices Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="sidebar-top">
+    <h2>Gas Prices</h2>
+    <button class="sidebar-collapse-btn" id="sidebar-toggle">&#9664;</button>
+  </div>
+
+  <!-- Date Range -->
+  <div class="sidebar-section collapsed">
+    <div class="section-header" data-toggle="date-section">
+      <span class="section-title">Date Range</span>
+      <span class="section-chevron">&#9660;</span>
+    </div>
+    <div class="section-body" id="date-section">
+      <div class="control-group">
+        <label>Start</label>
+        <input type="date" id="start-date">
+      </div>
+      <div class="control-group">
+        <label>End</label>
+        <input type="date" id="end-date">
+      </div>
+      <button id="reset-btn">Reset Dates</button>
+    </div>
+  </div>
+
+  <!-- States -->
+  <div class="sidebar-section states-section">
+    <div class="section-header" data-toggle="states-section">
+      <span class="section-title">States</span>
+      <span class="section-chevron">&#9660;</span>
+    </div>
+    <div class="section-body" id="states-section">
+      <button class="tbtn active" id="avg-btn">Natl. Average</button>
+      <button class="tbtn" id="gaps-btn" style="margin-top:4px">Missing Data</button>
+      <div class="btn-row" style="margin-top:6px">
+        <button class="tbtn-sm" id="states-select-all">All</button>
+        <button class="tbtn-sm" id="states-select-none">None</button>
+      </div>
+      <div class="selected-count" id="selected-count"></div>
+      <div class="selected-tags" id="selected-tags"></div>
+      <select id="state-select" multiple></select>
+    </div>
+  </div>
+
+  <!-- EIA Regions -->
+  <div class="sidebar-section collapsed">
+    <div class="section-header" data-toggle="eia-section">
+      <span class="section-title">EIA Regions</span>
+      <span class="section-chevron">&#9660;</span>
+    </div>
+    <div class="section-body" id="eia-section">
+      <div class="btn-row">
+        <button class="tbtn-sm" id="eia-toggle-national">National</button>
+        <button class="tbtn-sm" id="eia-toggle-region">Region</button>
+        <button class="tbtn-sm" id="eia-toggle-state">State</button>
+        <button class="tbtn-sm" id="eia-toggle-metro">Metro</button>
+      </div>
+      <div class="selected-count" id="eia-selected-count"></div>
+      <div class="selected-tags" id="eia-selected-tags"></div>
+      <select id="eia-select" multiple></select>
+    </div>
+  </div>
+
+  <!-- Events -->
+  <div class="sidebar-section collapsed">
+    <div class="section-header" data-toggle="events-section">
+      <span class="section-title">Events</span>
+      <span class="section-chevron">&#9660;</span>
+    </div>
+    <div class="section-body" id="events-section">
+      <label class="file-label" for="events-file">Upload CSV</label>
+      <input type="file" id="events-file" accept=".csv" hidden>
+      <button class="tbtn" id="clear-events-btn" style="margin-top:4px" hidden>Clear Events</button>
+      <div class="events-info" id="events-info"></div>
+    </div>
+  </div>
+</aside>
+
+<div class="main">
+  <div class="main-header">
+    <div>
+      <h1>Gas Prices</h1>
+      <p class="sub" id="date-range-label"></p>
+    </div>
+    <button class="download-btn" id="download-btn">Download CSV</button>
+  </div>
+
+  <div class="chart-box">
+    <div id="chart"></div>
+  </div>
+
+  <div class="events-panel" id="events-panel" hidden>
+    <div class="events-panel-header" id="events-panel-toggle">
+      <h3 class="events-panel-title">Events</h3>
+      <span class="events-panel-chevron" id="events-panel-chevron">&#9660;</span>
+    </div>
+    <div class="events-list" id="events-list"></div>
+  </div>
+
+  <div class="stats-section" id="states-stats-section" hidden>
+    <div class="stats-section-header" id="states-stats-toggle">
+      <h3 class="stats-section-title">States</h3>
+      <span class="stats-section-chevron">&#9660;</span>
+    </div>
+    <div class="stats" id="states-stats-grid"></div>
+  </div>
+
+  <div class="stats-section" id="eia-stats-section" hidden>
+    <div class="stats-section-header" id="eia-stats-toggle">
+      <h3 class="stats-section-title">EIA Regions</h3>
+      <span class="stats-section-chevron">&#9660;</span>
+    </div>
+    <div class="stats" id="eia-stats-grid"></div>
+  </div>
+
+  <div class="status" id="status"></div>
+</div>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
