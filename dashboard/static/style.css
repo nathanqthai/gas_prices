@@ -286,28 +286,6 @@ button:hover,
 }
 
 /* ── Main content ──────────────────────────────────────────────────────── */
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.download-btn {
-  padding: 6px 14px;
-  border-radius: 6px;
-  font-size: 11px;
-  cursor: pointer;
-  font-family: inherit;
-  border: 1px solid rgba(255,255,255,0.12);
-  background: rgba(255,255,255,0.04);
-  color: #aaa;
-  transition: all 0.15s;
-  width: auto;
-  white-space: nowrap;
-  flex-shrink: 0;
-  margin-top: 10px;
-}
-.download-btn:hover { background: rgba(255,255,255,0.1); color: #e0e0e0; }
 
 .main {
   flex: 1;
@@ -489,10 +467,19 @@ h1 {
   white-space: nowrap;
 }
 
-.event-pct-sep {
-  font-size: 9px;
-  color: #555;
+.events-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 6px;
+  font-size: 10px;
+  color: #888;
 }
+.events-legend b { color: #bbb; }
 
 .event-title {
   font-size: 12px;
@@ -548,6 +535,18 @@ h1 {
 .event-source:hover {
   border-color: #22d3ee;
 }
+
+.event-threat {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.threat-low  { color: #4ade80; background: rgba(74,222,128,0.12); }
+.threat-med  { color: #facc15; background: rgba(250,204,21,0.12); }
+.threat-high { color: #f87171; background: rgba(248,113,113,0.15); }
 
 /* ── Stat sections ─────────────────────────────────────────────────────── */
 .stats-section {

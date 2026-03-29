@@ -83,18 +83,19 @@
       <input type="file" id="events-file" accept=".csv" hidden>
       <button class="tbtn" id="clear-events-btn" style="margin-top:4px" hidden>Clear Events</button>
       <div class="events-info" id="events-info"></div>
+      <div class="btn-row" id="threat-smoothing-group" hidden style="margin-top:4px">
+        <label style="font-size:9px;color:#999;letter-spacing:1px;text-transform:uppercase;align-self:center">Smooth:</label>
+        <button class="tbtn-sm active" id="smooth-day">Day</button>
+        <button class="tbtn-sm" id="smooth-week">Week</button>
+        <button class="tbtn-sm" id="smooth-month">Month</button>
+      </div>
     </div>
   </div>
 </aside>
 
 <div class="main">
-  <div class="main-header">
-    <div>
-      <h1>Gas Prices</h1>
-      <p class="sub" id="date-range-label"></p>
-    </div>
-    <button class="download-btn" id="download-btn">Download CSV</button>
-  </div>
+  <h1>Gas Prices</h1>
+  <p class="sub" id="date-range-label"></p>
 
   <div class="chart-box">
     <div id="chart"></div>

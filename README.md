@@ -63,9 +63,10 @@ make docker     # run dashboard in Docker
 
 ## Events CSV
 
-The dashboard supports uploading a CSV of events to overlay on the chart as
-vertical markers. Each event appears in a collapsible panel below the chart with
-the national average price and day-over-day change.
+The dashboard supports uploading a CSV of events to overlay on the chart.
+Each event appears in a collapsible panel below the chart with the national
+average price and day-over-day change. An optional threat score is plotted as
+a line on a secondary y-axis with day/week/month smoothing.
 
 ### Schema
 
@@ -75,6 +76,7 @@ the national average price and day-over-day change.
 | `title` | Yes | Short headline (displayed in the event list) |
 | `description` | No | Full text shown when the event is expanded |
 | `source` | No | URL linking to the original source (must be `http://` or `https://`) |
+| `threat_score` | No | Numeric score from 0–100, plotted on a secondary y-axis |
 
 Column order is flexible — the parser matches by header name, not position.
 Fields containing commas, newlines, or quotes must be quoted per RFC 4180.
@@ -82,10 +84,10 @@ Fields containing commas, newlines, or quotes must be quoted per RFC 4180.
 ### Example
 
 ```csv
-date,title,description,source
-2025-01-20,Trump inaugurated,Donald Trump sworn in as 47th President,https://en.wikipedia.org/wiki/Inauguration_of_Donald_Trump
-2025-04-02,Reciprocal tariffs announced,Executive order on reciprocal tariffs,https://www.presidency.ucsb.edu/documents/app-categories/written-presidential-orders/presidential/executive-orders
-2026-02-28,Iran war begins,US-Israeli airstrikes begin against Iran,https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_February
+date,title,description,source,threat_score
+2024-06-01,Hurricane season begins,Atlantic hurricane season opens; Gulf refinery risk,https://www.nhc.noaa.gov,40
+2024-09-15,Pipeline maintenance,Colonial Pipeline scheduled maintenance window,https://www.colpipe.com,25
+2024-12-01,OPEC meeting,OPEC+ production quota decision expected,https://www.opec.org,60
 ```
 
 ## Project structure
@@ -113,8 +115,7 @@ gas_prices/
 
 ## References
 
-- [OPIS by Dow Jones](https://comdata.opisnet.com/) — Oil Price Information Service, industry-standard petroleum pricing data
+- [COMDATA](https://comdata.opisnet.com/) — Oil Price Information Service, industry-standard petroleum pricing data
 - [AAA Gas Prices](https://gasprices.aaa.com) — AAA's consumer-facing state and county gas price tracker (original data source, 2022–2026)
 - [U.S. Energy Information Administration (EIA)](https://www.eia.gov/petroleum/gasdiesel/) — Official U.S. government weekly retail gasoline prices ([bulk data](https://www.eia.gov/opendata/bulk/PET.zip), [API v2](https://api.eia.gov/v2))
 - [GasBuddy](https://www.gasbuddy.com/usa) — Crowd-sourced and aggregated gas station prices by state and metro area (current data source, 2026–present)
-

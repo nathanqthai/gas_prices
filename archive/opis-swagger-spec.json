@@ -1,0 +1,434 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0.0",
+    "title": "WebSearch_API"
+  },
+  "host": "retailfuelpricefinderservice.opisnet.com",
+  "schemes": ["https"],
+  "paths": {
+    "/api/aaa/search/zipcode/zip": {
+      "get": {
+        "tags": ["AAAStations"],
+        "operationId": "AAAStations_GettationsByZipCode",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "zipcode", "in": "query", "required": true, "type": "string" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/AAASearchResult" } }
+        }
+      }
+    },
+    "/api/aaa/search/{poiId}/poi": {
+      "get": {
+        "tags": ["AAAStations"],
+        "operationId": "AAAStations_GetStationsByCityOrPoi",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "poiId", "in": "path", "required": true, "type": "integer", "format": "int32" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/AAASearchResult" } }
+        }
+      }
+    },
+    "/api/aaa/detail/{StationId}": {
+      "get": {
+        "tags": ["AAAStations"],
+        "operationId": "AAAStations_GetStationDetails",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "StationId", "in": "path", "required": true, "type": "integer", "format": "int32" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/AAAStationDetail" } }
+        }
+      }
+    },
+    "/api/aaa/search/{SWLat}/{SWLng}/{NELat}/{NELng}/bounds": {
+      "get": {
+        "tags": ["AAAStations"],
+        "operationId": "AAAStations_GetStationsByBounds",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "SWLat", "in": "path", "required": true, "type": "number", "format": "float" },
+          { "name": "SWLng", "in": "path", "required": true, "type": "number", "format": "float" },
+          { "name": "NELat", "in": "path", "required": true, "type": "number", "format": "float" },
+          { "name": "NELng", "in": "path", "required": true, "type": "number", "format": "float" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/AAASearchResult" } }
+        }
+      }
+    },
+    "/api/comdata/search/zipcode/{fuelType}/{searchArea}/zip": {
+      "get": {
+        "tags": ["ComdataStations"],
+        "operationId": "ComdataStations_GetStationsByZipCode",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "zipcode", "in": "query", "required": true, "type": "string" },
+          { "name": "fuelType", "in": "path", "required": true, "type": "integer", "format": "int32" },
+          { "name": "searchArea", "in": "path", "required": true, "type": "integer", "format": "int32" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/ComdataSearchResult" } }
+        }
+      }
+    },
+    "/api/comdata/search/{poiId}/{fuelType}/{searchArea}/poi": {
+      "get": {
+        "tags": ["ComdataStations"],
+        "operationId": "ComdataStations_GetStationsByPoi",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "poiId", "in": "path", "required": true, "type": "integer", "format": "int32" },
+          { "name": "fuelType", "in": "path", "required": true, "type": "integer", "format": "int32" },
+          { "name": "searchArea", "in": "path", "required": true, "type": "integer", "format": "int32" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/ComdataSearchResult" } }
+        }
+      }
+    },
+    "/api/comdata/search/{fuelType}/{SWLat}/{SWLng}/{NELat}/{NELng}/bounds": {
+      "get": {
+        "tags": ["ComdataStations"],
+        "operationId": "ComdataStations_GetStationsByBounds",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "fuelType", "in": "path", "required": true, "type": "integer", "format": "int32" },
+          { "name": "SWLat", "in": "path", "required": true, "type": "number", "format": "float" },
+          { "name": "SWLng", "in": "path", "required": true, "type": "number", "format": "float" },
+          { "name": "NELat", "in": "path", "required": true, "type": "number", "format": "float" },
+          { "name": "NELng", "in": "path", "required": true, "type": "number", "format": "float" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/ComdataSearchResult" } }
+        }
+      }
+    },
+    "/api/comdata/search/{stationId}/{fuelType}/history": {
+      "get": {
+        "tags": ["ComdataStations"],
+        "operationId": "ComdataStations_GetStationById",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "stationId", "in": "path", "required": true, "type": "integer", "format": "int32" },
+          { "name": "fuelType", "in": "path", "required": true, "type": "integer", "format": "int32" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/ComdataStationHistory" } }
+        }
+      }
+    },
+    "/api/aaa/pois/{poiId}/poi": {
+      "get": {
+        "tags": ["PointOfInterests"],
+        "operationId": "PointOfInterests_GetPoi",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "poiId", "in": "path", "required": true, "type": "integer", "format": "int32" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/PointOfInterest" } }
+        }
+      }
+    },
+    "/api/aaa/pois/state": {
+      "get": {
+        "tags": ["PointOfInterests"],
+        "operationId": "PointOfInterests_GetPointsOfInterestByState",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "state", "in": "query", "required": true, "type": "string" }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": { "type": "array", "items": { "$ref": "#/definitions/PointOfInterest" } }
+          }
+        }
+      }
+    },
+    "/api/standard/search/zipcode/zip": {
+      "get": {
+        "tags": ["StandardStations"],
+        "operationId": "StandardStations_GetStationsByZipCode",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "zipcode", "in": "query", "required": true, "type": "string" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/StandardSearchResult" } }
+        }
+      }
+    },
+    "/api/standard/search/{poiId}/poi": {
+      "get": {
+        "tags": ["StandardStations"],
+        "operationId": "StandardStations_GetStationsByCityOrPoi",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "poiId", "in": "path", "required": true, "type": "integer", "format": "int32" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/StandardSearchResult" } }
+        }
+      }
+    },
+    "/api/standard/search/{SWLat}/{SWLng}/{NELat}/{NELng}/bounds": {
+      "get": {
+        "tags": ["StandardStations"],
+        "operationId": "StandardStations_GetStationsByBounds",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "SWLat", "in": "path", "required": true, "type": "number", "format": "float" },
+          { "name": "SWLng", "in": "path", "required": true, "type": "number", "format": "float" },
+          { "name": "NELat", "in": "path", "required": true, "type": "number", "format": "float" },
+          { "name": "NELng", "in": "path", "required": true, "type": "number", "format": "float" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/StandardSearchResult" } }
+        }
+      }
+    },
+    "/api/comdata/search/{zipcode}/zip": {
+      "get": {
+        "tags": ["Zipcode"],
+        "operationId": "Zipcode_GetZipcodeById",
+        "consumes": [],
+        "produces": ["application/json", "text/json", "application/xml", "text/xml"],
+        "parameters": [
+          { "name": "zipcode", "in": "path", "required": true, "type": "integer", "format": "int32" }
+        ],
+        "responses": {
+          "200": { "description": "OK", "schema": { "$ref": "#/definitions/Zipcode" } }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "AAASearchResult": {
+      "type": "object",
+      "properties": {
+        "zipcode": { "type": "string" },
+        "poiId": { "type": "string" },
+        "stations": { "type": "array", "items": { "$ref": "#/definitions/AAAStationDetail" } },
+        "averages": { "$ref": "#/definitions/AverageDetail" },
+        "adjustedAverages": { "$ref": "#/definitions/AverageDetail" }
+      }
+    },
+    "AAAStationDetail": {
+      "type": "object",
+      "properties": {
+        "id": { "format": "int32", "type": "integer" },
+        "name": { "type": "string" },
+        "brand": { "type": "string" },
+        "address": { "type": "string" },
+        "altAddress": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "zipcode": { "format": "int32", "type": "integer" },
+        "phone": { "type": "string" },
+        "longitude": { "format": "double", "type": "number" },
+        "latitude": { "format": "double", "type": "number" },
+        "weekPrice": { "format": "double", "type": "number" },
+        "monthPrice": { "format": "double", "type": "number" },
+        "sixMonthPrice": { "format": "double", "type": "number" },
+        "yearPrice": { "format": "double", "type": "number" },
+        "fuels": { "type": "array", "items": { "$ref": "#/definitions/FuelDetail" } },
+        "services": { "type": "array", "items": { "$ref": "#/definitions/ServiceDetail" } }
+      }
+    },
+    "AverageDetail": {
+      "type": "object",
+      "properties": {
+        "today": { "format": "double", "type": "number" },
+        "week": { "format": "double", "type": "number" },
+        "month": { "format": "double", "type": "number" },
+        "sixMonths": { "format": "double", "type": "number" },
+        "year": { "format": "double", "type": "number" }
+      }
+    },
+    "FuelDetail": {
+      "type": "object",
+      "properties": {
+        "type": { "format": "int32", "type": "integer" },
+        "price": { "format": "double", "type": "number" },
+        "latestPublished": { "type": "string" },
+        "isRecent": { "type": "boolean" }
+      }
+    },
+    "ServiceDetail": {
+      "type": "object",
+      "properties": {
+        "id": { "format": "int32", "type": "integer" },
+        "name": { "type": "string" },
+        "category": { "format": "int32", "type": "integer" }
+      }
+    },
+    "ComdataSearchResult": {
+      "type": "object",
+      "properties": {
+        "zipcode": { "type": "string" },
+        "poiId": { "type": "string" },
+        "searchArea": { "format": "int32", "type": "integer" },
+        "fuelType": { "format": "int32", "type": "integer" },
+        "stations": { "type": "array", "items": { "$ref": "#/definitions/ComdataStation" } },
+        "statistics": { "$ref": "#/definitions/StatisticDetail" }
+      }
+    },
+    "ComdataStation": {
+      "type": "object",
+      "properties": {
+        "id": { "format": "int32", "type": "integer" },
+        "fuelType": { "format": "int32", "type": "integer" },
+        "name": { "type": "string" },
+        "address1": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "phone": { "type": "string" },
+        "brand": { "type": "string" },
+        "zip": { "format": "int32", "type": "integer" },
+        "latitude": { "format": "double", "type": "number" },
+        "longitude": { "format": "double", "type": "number" },
+        "retailPrice": { "format": "double", "type": "number" },
+        "retailDate": { "format": "date-time", "type": "string" },
+        "netPrice": { "format": "double", "type": "number" },
+        "rackPrice": { "format": "double", "type": "number" },
+        "marginPrice": { "format": "double", "type": "number" },
+        "discountAvailable": { "format": "int32", "type": "integer" }
+      }
+    },
+    "StatisticDetail": {
+      "type": "object",
+      "properties": {
+        "lowPrice": { "format": "double", "type": "number" },
+        "averagePrice": { "format": "double", "type": "number" },
+        "highPrice": { "format": "double", "type": "number" }
+      }
+    },
+    "ComdataStationHistory": {
+      "type": "object",
+      "properties": {
+        "summary": { "$ref": "#/definitions/ComdataStationSummary" },
+        "history": { "type": "array", "items": { "$ref": "#/definitions/FuelPriceDetail" } },
+        "avgRetailPrice": { "format": "double", "type": "number" },
+        "avgMarginPrice": { "format": "double", "type": "number" }
+      }
+    },
+    "ComdataStationSummary": {
+      "type": "object",
+      "properties": {
+        "id": { "format": "int32", "type": "integer" },
+        "fuelType": { "format": "int32", "type": "integer" },
+        "name": { "type": "string" },
+        "address1": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "phone": { "type": "string" },
+        "brand": { "type": "string" },
+        "zip": { "format": "int32", "type": "integer" },
+        "latitude": { "format": "double", "type": "number" },
+        "longitude": { "format": "double", "type": "number" }
+      }
+    },
+    "FuelPriceDetail": {
+      "type": "object",
+      "properties": {
+        "id": { "format": "int32", "type": "integer" },
+        "date": { "format": "date-time", "type": "string" },
+        "retailPrice": { "format": "double", "type": "number" },
+        "rackPrice": { "format": "double", "type": "number" },
+        "netPrice": { "format": "double", "type": "number" },
+        "margin": { "format": "double", "type": "number" }
+      }
+    },
+    "PointOfInterest": {
+      "type": "object",
+      "properties": {
+        "id": { "format": "int32", "type": "integer" },
+        "state": { "type": "string" },
+        "name": { "type": "string" },
+        "latitude": { "format": "double", "type": "number" },
+        "longitude": { "format": "double", "type": "number" }
+      }
+    },
+    "StandardSearchResult": {
+      "type": "object",
+      "properties": {
+        "zipcode": { "type": "string" },
+        "poiId": { "type": "string" },
+        "stations": { "type": "array", "items": { "$ref": "#/definitions/StandardStationDetail" } },
+        "averages": { "$ref": "#/definitions/AverageDetail" },
+        "adjustedAverages": { "$ref": "#/definitions/AverageDetail" }
+      }
+    },
+    "StandardStationDetail": {
+      "type": "object",
+      "properties": {
+        "id": { "format": "int32", "type": "integer" },
+        "name": { "type": "string" },
+        "brand": { "type": "string" },
+        "address": { "type": "string" },
+        "altAddress": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "zipcode": { "format": "int32", "type": "integer" },
+        "phone": { "type": "string" },
+        "longitude": { "format": "double", "type": "number" },
+        "latitude": { "format": "double", "type": "number" },
+        "weekPrice": { "format": "double", "type": "number" },
+        "monthPrice": { "format": "double", "type": "number" },
+        "sixMonthPrice": { "format": "double", "type": "number" },
+        "yearPrice": { "format": "double", "type": "number" },
+        "fuels": { "type": "array", "items": { "$ref": "#/definitions/StandardFuelDetail" } },
+        "services": { "type": "array", "items": { "$ref": "#/definitions/ServiceDetail" } }
+      }
+    },
+    "StandardFuelDetail": {
+      "type": "object",
+      "properties": {
+        "cashPrice": { "format": "double", "type": "number" },
+        "latestCashPublished": { "type": "string" },
+        "cashIsRecent": { "type": "boolean" },
+        "type": { "format": "int32", "type": "integer" },
+        "price": { "format": "double", "type": "number" },
+        "latestPublished": { "type": "string" },
+        "isRecent": { "type": "boolean" }
+      }
+    },
+    "Zipcode": {
+      "type": "object",
+      "properties": {
+        "id": { "format": "int32", "type": "integer" },
+        "zip": { "type": "string" },
+        "latitude": { "format": "double", "type": "number" },
+        "longitude": { "format": "double", "type": "number" }
+      }
+    }
+  },
+  "securityDefinitions": {
+    "apiKey": {
+      "type": "apiKey",
+      "description": "Bearer Token",
+      "name": "apiKey",
+      "in": "header"
+    }
+  }
+}

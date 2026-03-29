@@ -108,6 +108,7 @@ let dateRange = { min: "", max: "" };
 let showAvg = true;
 let showGaps = false;
 let events = [];
+let threatSmoothing = "day"; // "day" | "week" | "month"
 let loadTimer = null; // debounce timer
 
 let lastGrouped = null;
@@ -161,15 +162,15 @@ async function init() {
       eiaSel.add(opt);
     });
     // Default: EIA US national average
-    for (const opt of eiaSel.options) opt.selected = (opt.value === "US");
+    // Default: no EIA regions selected
     updateEIATags();
 
+    const today = new Date().toISOString().slice(0, 10);
     $("#start-date").value = range.min;
-    $("#end-date").value = range.max;
+    $("#end-date").value = today > range.max ? range.max : today;
     $("#date-range-label").textContent = `${range.min} \u2014 ${range.max}`;
 
-    const defaults = new Set(["CA", "TX", "NY", "DC"]);
-    for (const opt of sel.options) opt.selected = defaults.has(opt.value);
+    // Default: no states selected (only calculated national average shows)
     updateTags();
 
     await loadData();
@@ -344,22 +345,85 @@ function renderChart() {
     shapes = buildMissingShapes(allDates, missingSet);
   }
 
-  // Event markers
+  // Event markers + threat score trace
+  let hasThreatScore = false;
   if (events.length && allDates.length) {
     const first = allDates[0];
     const last = allDates[allDates.length - 1];
+    const rawThreats = []; // { date, score }
+
     events.forEach((evt) => {
       if (evt.date < first || evt.date > last) return;
-      shapes.push({
-        type: "line", xref: "x", yref: "paper",
-        x0: evt.date, x1: evt.date, y0: 0, y1: 1,
-        line: { color: "rgba(255,255,255,0.35)", width: 1, dash: "dot" },
-        layer: "above",
-      });
+      if (evt.threatScore != null) {
+        rawThreats.push({ date: evt.date, score: evt.threatScore });
+      }
     });
+
+    if (rawThreats.length) {
+      hasThreatScore = true;
+
+      // Group by bucket based on smoothing mode
+      function bucketKey(date) {
+        if (threatSmoothing === "month") return date.slice(0, 7) + "-15"; // mid-month
+        if (threatSmoothing === "week") {
+          const d = new Date(date + "T00:00:00");
+          const day = d.getDay();
+          d.setDate(d.getDate() - day); // start of week (Sunday)
+          return d.toISOString().slice(0, 10);
+        }
+        return date; // day = no smoothing
+      }
+
+      const buckets = new Map();
+      rawThreats.forEach((t) => {
+        const key = bucketKey(t.date);
+        if (!buckets.has(key)) buckets.set(key, []);
+        buckets.get(key).push(t.score);
+      });
+
+      const smoothedDates = [];
+      const smoothedValues = [];
+      [...buckets.entries()].sort((a, b) => a[0].localeCompare(b[0])).forEach(([date, scores]) => {
+        smoothedDates.push(date);
+        smoothedValues.push(+(scores.reduce((s, v) => s + v, 0) / scores.length).toFixed(1));
+      });
+
+      const useSpline = threatSmoothing !== "day";
+      traces.push({
+        x: smoothedDates,
+        y: smoothedValues,
+        name: `Threat (${threatSmoothing})`,
+        type: "scatter",
+        mode: useSpline ? "lines" : "lines+markers",
+        connectgaps: true,
+        yaxis: "y2",
+        marker: { size: 3, color: "rgba(180,60,60,0.5)" },
+        line: {
+          width: useSpline ? 2 : 1.5,
+          color: "rgba(180,60,60,0.4)",
+          shape: useSpline ? "spline" : "linear",
+          smoothing: 1.3,
+        },
+      });
+    }
   }
 
-  Plotly.newPlot("chart", traces, { ...PLOTLY_LAYOUT, shapes }, PLOTLY_CONFIG);
+  const layout = { ...PLOTLY_LAYOUT, shapes };
+  if (hasThreatScore) {
+    layout.yaxis2 = {
+      title: { text: "Threat Score", font: { size: 10, color: "rgba(180,60,60,0.6)" } },
+      overlaying: "y",
+      side: "right",
+      range: [0, 100],
+      showgrid: false,
+      tickcolor: "rgba(255,34,34,0.3)",
+      tickfont: { color: "rgba(180,60,60,0.6)", size: 9 },
+      linecolor: "rgba(255,34,34,0.3)",
+      zerolinecolor: "rgba(255,34,34,0.1)",
+    };
+  }
+
+  Plotly.newPlot("chart", traces, layout, PLOTLY_CONFIG);
   bindChartEvents();
 }
 
@@ -377,8 +441,9 @@ function bindChartEvents() {
   });
 
   chartEl.on("plotly_deselect", () => {
+    const today = new Date().toISOString().slice(0, 10);
     $("#start-date").value = dateRange.min;
-    $("#end-date").value = dateRange.max;
+    $("#end-date").value = today > dateRange.max ? dateRange.max : today;
     loadData();
   });
 }
@@ -444,26 +509,6 @@ function renderStats(grouped, abbrs) {
   }
 }
 
-// ── CSV download ────────────────────────────────────────────────────────────
-
-function downloadCSV() {
-  if (!lastGrouped || !lastAbbrs.length) return;
-  const lines = ["date,state,name,price,source"];
-  lastAbbrs.forEach((abbr) => {
-    const s = lastGrouped[abbr];
-    const source = `https://www.gasbuddy.com/usa/${abbr.toLowerCase()}`;
-    for (let i = 0; i < s.dates.length; i++) {
-      lines.push(`${s.dates[i]},${abbr},"${s.name}",${s.prices[i].toFixed(3)},${source}`);
-    }
-  });
-  const blob = new Blob([lines.join("\n")], { type: "text/csv" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "gas_prices.csv";
-  a.click();
-  URL.revokeObjectURL(url);
-}
 
 // ── Sidebar: tag helpers ────────────────────────────────────────────────────
 
@@ -576,12 +621,12 @@ $("#gaps-btn").addEventListener("click", () => {
 });
 
 $("#reset-btn").addEventListener("click", () => {
+  const today = new Date().toISOString().slice(0, 10);
   $("#start-date").value = dateRange.min;
-  $("#end-date").value = dateRange.max;
+  $("#end-date").value = today > dateRange.max ? dateRange.max : today;
   loadData();
 });
 
-$("#download-btn").addEventListener("click", downloadCSV);
 
 // Stats section collapse
 $("#states-stats-toggle").addEventListener("click", () => {
@@ -637,6 +682,7 @@ function parseEventsCSV(text) {
   const titleIdx = header.indexOf("title");
   const descIdx = header.indexOf("description");
   const sourceIdx = header.indexOf("source");
+  const threatIdx = header.indexOf("threat_score");
 
   if (dateIdx === -1 || titleIdx === -1) throw new Error('CSV must have "date" and "title" columns');
 
@@ -647,8 +693,13 @@ function parseEventsCSV(text) {
     const title = (cols[titleIdx] || "").trim();
     const description = descIdx !== -1 ? (cols[descIdx] || "").trim() : "";
     const source = sourceIdx !== -1 ? (cols[sourceIdx] || "").trim() : "";
+    let threatScore = null;
+    if (threatIdx !== -1) {
+      const raw = parseFloat((cols[threatIdx] || "").trim());
+      if (!isNaN(raw) && raw >= 0 && raw <= 100) threatScore = raw;
+    }
     if (!DATE_RE.test(date) || !title) continue;
-    parsed.push({ date, title, description, source: isValidURL(source) ? source : "" });
+    parsed.push({ date, title, description, source: isValidURL(source) ? source : "", threatScore });
   }
   return parsed;
 }
@@ -724,12 +775,25 @@ function updateEventsUI() {
   const firstEventDate = pageEvents.length ? pageEvents[0].date : null;
   const firstEventPrice = firstEventDate ? avgLookup.get(firstEventDate) : null;
 
-  function pctBadge(from, to) {
+  function pctBadge(from, to, title) {
     if (from == null || to == null || from === 0) return "";
     const pct = ((to - from) / from * 100).toFixed(1);
     const up = to >= from;
     const cls = up ? "stat-pct-up" : "stat-pct-down";
-    return `<span class="event-pct ${cls}">${up ? "+" : ""}${pct}%</span>`;
+    return `<span class="event-pct ${cls}" title="${title}">${up ? "+" : ""}${pct}%</span>`;
+  }
+
+  // Threat score thresholds — thirds of max score in current page
+  const maxThreat = Math.max(0, ...pageEvents.map((e) => e.threatScore ?? 0));
+  const lowThreshold = maxThreat / 3;
+  const highThreshold = (maxThreat * 2) / 3;
+
+  function threatBadge(score) {
+    if (score == null) return "";
+    let cls = "threat-low";
+    if (score > highThreshold) cls = "threat-high";
+    else if (score > lowThreshold) cls = "threat-med";
+    return `<span class="event-threat ${cls}" title="Threat score: ${score}/100">${score}</span>`;
   }
 
   const itemsHTML = pageEvents
@@ -737,18 +801,20 @@ function updateEventsUI() {
       const price = avgLookup.get(evt.date);
       const priceStr = price != null ? `$${price.toFixed(3)}` : "\u2014";
       const prev = prevPrice(evt.date);
-      const dayBadge = pctBadge(prev, price);
-      const fromFirstBadge = pctBadge(firstEventPrice, price);
+      const dayBadge = pctBadge(prev, price, "1-day change");
+      const fromFirstBadge = pctBadge(firstEventPrice, price, "Change from first event");
+      const threat = threatBadge(evt.threatScore);
       return `<div class="event-item" data-event-idx="${i}">
         <div class="event-header">
           <span class="event-left">
             <span class="event-date">${esc(evt.date)}</span>
             <span class="event-price-group">
               <span class="event-price">${priceStr}</span>
-              ${dayBadge}${fromFirstBadge ? `<span class="event-pct-sep">/</span>${fromFirstBadge}` : ""}
+              ${dayBadge}${fromFirstBadge}
             </span>
           </span>
           <span class="event-title">${esc(evt.title)}${evt.source ? ` <a class="event-source" href="${esc(evt.source)}" target="_blank" rel="noopener noreferrer">&#8599;</a>` : ""}</span>
+          ${threat}
           <span class="event-chevron">&#9654;</span>
         </div>
         <div class="event-body"><div class="event-desc">${esc(evt.description || "No description provided.")}</div></div>
@@ -756,7 +822,16 @@ function updateEventsUI() {
     })
     .join("");
 
-  list.innerHTML = paginationHTML + itemsHTML;
+  const hasThreatScores = pageEvents.some((e) => e.threatScore != null);
+  const legendHTML = `<div class="events-legend">
+    <span><b>Date</b></span>
+    <span><b>Price</b> = Natl. avg</span>
+    <span><b>1st %</b> = 1-day change</span>
+    <span><b>2nd %</b> = change from first event</span>
+    ${hasThreatScores ? `<span><span class="event-threat threat-low">Lo</span> <span class="event-threat threat-med">Med</span> <span class="event-threat threat-high">Hi</span> = Threat score</span>` : ""}
+  </div>`;
+
+  list.innerHTML = legendHTML + paginationHTML + itemsHTML;
 
   const prevBtn = $("#events-prev");
   const nextBtn = $("#events-next");
@@ -778,6 +853,7 @@ $("#events-file").addEventListener("change", (e) => {
   reader.onload = () => {
     try {
       events = parseEventsCSV(reader.result);
+      $("#threat-smoothing-group").hidden = !events.some((e) => e.threatScore != null);
       updateEventsUI();
       renderChart();
       setStatus(`Loaded ${events.length} event(s) from ${esc(file.name)}`);
@@ -797,9 +873,21 @@ $("#events-panel-toggle").addEventListener("click", () => {
 
 $("#clear-events-btn").addEventListener("click", () => {
   events = [];
+  $("#threat-smoothing-group").hidden = true;
   updateEventsUI();
   renderChart();
   setStatus("Events cleared");
+});
+
+// Threat smoothing toggles
+["day", "week", "month"].forEach((mode) => {
+  $(`#smooth-${mode}`).addEventListener("click", () => {
+    threatSmoothing = mode;
+    $(`#smooth-day`).classList.toggle("active", mode === "day");
+    $(`#smooth-week`).classList.toggle("active", mode === "week");
+    $(`#smooth-month`).classList.toggle("active", mode === "month");
+    renderChart();
+  });
 });
 
 // ── Boot ────────────────────────────────────────────────────────────────────
