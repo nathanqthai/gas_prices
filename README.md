@@ -110,3 +110,11 @@ gas_prices/
     regions/              # Weekly EIA regional CSVs
   Makefile
 ```
+
+## References
+
+- [OPIS by Dow Jones](https://comdata.opisnet.com/) — Oil Price Information Service, industry-standard petroleum pricing data
+- [AAA Gas Prices](https://gasprices.aaa.com) — AAA's consumer-facing state and county gas price tracker (original data source, 2022–2026)
+- [U.S. Energy Information Administration (EIA)](https://www.eia.gov/petroleum/gasdiesel/) — Official U.S. government weekly retail gasoline prices ([bulk data](https://www.eia.gov/opendata/bulk/PET.zip), [API v2](https://api.eia.gov/v2))
+- [GasBuddy](https://www.gasbuddy.com/usa) — Crowd-sourced and aggregated gas station prices by state and metro area (current data source, 2026–present)
+
